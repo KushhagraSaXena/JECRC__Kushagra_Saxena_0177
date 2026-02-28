@@ -1,0 +1,15 @@
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.AssemblyInfo.cs
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.sourcelink.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\bin\Debug\net10.0\Assessment_Student_EV_System.exe
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\bin\Debug\net10.0\Assessment_Student_EV_System.deps.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\bin\Debug\net10.0\Assessment_Student_EV_System.runtimeconfig.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\bin\Debug\net10.0\Assessment_Student_EV_System.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\bin\Debug\net10.0\Assessment_Student_EV_System.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\refint\Assessment_Student_EV_System.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\Assessment_Student_EV_System.genruntimeconfig.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\28-02-2026\Assessment_Student_EV_System\obj\Debug\net10.0\ref\Assessment_Student_EV_System.dll

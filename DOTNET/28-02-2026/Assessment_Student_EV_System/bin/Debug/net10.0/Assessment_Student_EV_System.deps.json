@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Assessment_Student_EV_System/1.0.0": {
+        "runtime": {
+          "Assessment_Student_EV_System.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assessment_Student_EV_System/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
