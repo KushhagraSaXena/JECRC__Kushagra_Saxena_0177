@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Validation Logger</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Email Validation Form</h2>
+
+<input id="email" placeholder="Enter Email">
+
+<button onclick="validateForm()">Submit</button>
+
+<script>
+
+// Logger Object
+const logger = {
+
+    log: function(level, message, data){
+
+        const logData = {
+            level: level,
+            message: message,
+            data: data,
+            time: new Date().toISOString()
+        };
+
+        console.warn("Log:", logData);
+    }
+
+};
+
+function validateForm(){
+
+    const email = document.getElementById("email").value;
+
+    if(!email.includes("@")){
+
+        logger.log("WARN","Invalid Email Entered", email);
+
+        alert("Invalid email");
+
+    }
+
+}
+
+</script>
+
+</body>
+</html>

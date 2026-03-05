@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Load Performance Monitor</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+</style>
+
+<script>
+
+const start = performance.now();
+
+const logger = {
+
+    log: function(level, message, data){
+
+        const logData = {
+            level: level,
+            message: message,
+            data: data,
+            timestamp: new Date().toISOString()
+        };
+
+        console.log("Performance Log:", logData);
+
+        fetch("https://example.com/log",{
+            method: "POST",
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify(logData)
+        }).catch(err => console.warn("Remote log failed"));
+    }
+
+};
+
+window.onload = function(){
+
+    const end = performance.now();
+
+    const loadTime = end - start;
+
+    logger.log("INFO","Page Load Time:", loadTime + " ms");
+
+}
+
+</script>
+
+</head>
+
+<body>
+
+<h2>Website Performance Monitoring</h2>
+
+<p>This is a page tracks how long it takes to load.</p>
+
+</body>
+</html>

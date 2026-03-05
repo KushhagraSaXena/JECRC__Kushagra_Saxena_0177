@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>User Login Logger</title>
+
+<style>
+
+/* Page styling */
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+/* Login card */
+
+.container{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    width:320px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+/* Input */
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Button */
+
+button{
+    width:100%;
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background:#007bff;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+/* Status message */
+
+#status{
+    margin-top:15px;
+    font-size:14px;
+}
+
+</style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+<h2>Login</h2>
+
+<input id="username" placeholder="Enter Username">
+
+<button onclick="login()">Login</button>
+
+<p id="status"></p>
+
+</div>
+
+<script>
+
+// simple logger object
+
+const logger = {
+
+    log: function(level, message, data){
+
+        const logData = {
+            level: level,
+            message: message,
+            username: data.username,
+            timestamp: new Date().toISOString()
+        };
+
+        console.log("Log Generated:", logData);
+
+        sendToServer(logData);
+    }
+
+};
+
+
+// send log to remote server
+
+function sendToServer(logData){
+
+    fetch("https://example.com/api/logs", {
+
+        method: "POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+
+        body: JSON.stringify(logData)
+
+    })
+
+    .then(response => {
+
+        document.getElementById("status").innerText = "Log sent successfully.";
+
+    })
+
+    .catch(error => {
+
+        document.getElementById("status").innerText = "Failed to send log.";
+
+        console.error(error);
+
+    });
+
+}
+
+
+// login button function
+
+function login(){
+
+    const user = document.getElementById("username").value.trim();
+
+    if(user === ""){
+
+        document.getElementById("status").innerText = "Please enter username.";
+
+        return;
+    }
+
+    logger.log("INFO","User Login Attempt",{username:user});
+
+}
+
+</script>
+
+</body>
+</html>
