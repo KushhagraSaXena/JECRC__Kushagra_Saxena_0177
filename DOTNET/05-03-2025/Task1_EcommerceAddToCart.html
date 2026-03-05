@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add to Cart Example</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        button{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        #msg{
+            margin-top: 20px;
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Product: Wireless Keyboard</h2>
+
+<button id="addCart">Add to Cart</button>
+
+<p id="msg"></p>
+
+<script>
+    const productName = "Wireless Keyboard";
+
+    document.getElementById("addCart").addEventListener("click", function() {
+        
+        console.log("Product added to cart:", productName);
+
+        document.getElementById("msg").innerHTML = 
+            productName + " successfully added to cart!";
+    });
+</script>
+
+</body>
+</html>
