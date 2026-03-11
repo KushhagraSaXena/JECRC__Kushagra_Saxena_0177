@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>E-Commerce Price Update</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.box{
+    background:white;
+    width:320px;
+    margin:100px auto;
+    padding:20px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:8px 12px;
+    margin-top:10px;
+    background:#ff9800;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.result{
+    margin-top:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<h2>E-Commerce Price Update</h2>
+
+<p>Prices: [1200, 800, 1500, 2000]</p>
+
+<button onclick="applyDiscount()">Apply 10% Discount</button>
+
+<div class="result" id="output"></div>
+</div>
+
+<script>
+
+const prices = [1200, 800, 1500, 2000];
+
+function applyDiscount(){
+
+    const discounted = prices.map(price => price * 0.9);
+
+    document.getElementById("output").innerHTML = discounted;
+
+}
+
+</script>
+
+</body>
+</html>

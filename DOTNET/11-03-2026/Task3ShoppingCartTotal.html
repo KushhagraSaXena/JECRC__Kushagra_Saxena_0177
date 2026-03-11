@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopping Cart Total</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    text-align:center;
+    margin-top:100px;
+}
+
+.container{
+    background:white;
+    padding:20px;
+    width:300px;
+    margin:auto;
+    border-radius:6px;
+    box-shadow:0 0 5px rgba(0,0,0,0.2);
+}
+
+button{
+    padding:8px 15px;
+    margin-top:10px;
+    background:#007bff;
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#024c9b;
+}
+
+.result{
+    margin-top:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+<h2>Shopping Cart Total</h2>
+
+<p>Cart Items: [500, 1200, 800, 1500]</p>
+
+<button onclick="calculateTotal()">Calculate Total</button>
+
+<div class="result" id="result"></div>
+</div>
+
+<script>
+
+function calculateTotal(){
+
+    const cart = [500, 1200, 800, 1500];
+
+    const total = cart.reduce((sum, price) => sum + price, 0);
+
+    document.getElementById("result").innerHTML = "Total: " + total;
+
+}
+
+</script>
+
+</body>
+</html>
+

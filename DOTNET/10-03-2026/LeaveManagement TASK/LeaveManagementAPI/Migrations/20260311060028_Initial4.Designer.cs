@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LeaveManagementAPI.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20260311052008_Initial3")]
-    partial class Initial3
+    [Migration("20260311060028_Initial4")]
+    partial class Initial4
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

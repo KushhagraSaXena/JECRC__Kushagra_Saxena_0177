@@ -5,7 +5,7 @@
 namespace LeaveManagementAPI.Migrations
 {
     /// <inheritdoc />
-    public partial class Initial3 : Migration
+    public partial class Initial4 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

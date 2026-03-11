@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pass Students Only</title>
+
+<style>
+body{
+    font-family: Arial;
+    background:#f5f5f5;
+    text-align:center;
+}
+
+.box{
+    background:white;
+    width:320px;
+    margin:100px auto;
+    padding:20px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:8px 12px;
+    margin-top:10px;
+    background:#4CAF50;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.result{
+    margin-top:15px;
+    font-size:18px;
+    font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<div class="box">
+<h2>Pass Students Only above 50 marks</h2>
+
+<p>Marks: [35, 67, 48, 90, 55, 30]</p>
+
+<button onclick="showPassStudents()">Show Passing Students</button>
+
+<div class="result" id="output"></div>
+</div>
+
+<script>
+
+const marks = [35, 67, 48, 90, 55, 30];
+
+function showPassStudents(){
+
+    const passed = marks.filter(mark => mark > 50);
+
+    document.getElementById("output").innerHTML = passed;
+
+}
+
+</script>
+
+</body>
+</html>
+

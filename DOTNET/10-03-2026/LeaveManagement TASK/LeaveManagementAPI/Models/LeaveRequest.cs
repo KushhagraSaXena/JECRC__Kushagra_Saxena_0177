@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace LeaveManagementAPI.Models
 {
     public class LeaveRequest
@@ -6,13 +8,19 @@ namespace LeaveManagementAPI.Models
 
         public int EmployeeId { get; set; }
 
-        public string LeaveType { get; set; }
+        [Required]
+        // public string LeaveType? { get; set; }
+public string? LeaveType { get; set; }
 
+        [Required]
         public DateTime StartDate { get; set; }
 
+        [Required]
         public DateTime EndDate { get; set; }
 
-        public string Reason { get; set; }
+        [Required]
+public string? Reason { get; set; }
+        // public string Reason { get; set; }
 
         public string Status { get; set; } = "Pending";
     }

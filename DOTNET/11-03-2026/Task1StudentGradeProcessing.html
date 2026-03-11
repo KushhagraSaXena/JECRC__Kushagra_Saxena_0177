@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Grade Processing</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 350px;
+        }
+
+        h2{
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .result{
+            font-size: 18px;
+            margin-top: 15px;
+            padding: 10px;
+            background: #eef2ff;
+            border-radius: 6px;
+            color: #333;
+        }
+
+        button{
+            margin-top: 15px;
+            padding: 10px 18px;
+            border: none;
+            background: #4f46e5;
+            color: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover{
+            background: #3730a3;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Student Grade Processing</h2>
+
+    <p><b>Original Marks:</b> [65, 70, 80, 55, 90]</p>
+
+    <button onclick="processMarks()">Add Bonus Marks</button>
+
+    <div class="result" id="result">
+        Result will appear here
+    </div>
+</div>
+
+<script>
+function processMarks()
+{
+    const marks = [65, 70, 80, 55, 90];
+
+    // Using map() to add 5 marks
+    const updatedMarks = marks.map(mark => mark + 5);
+
+    document.getElementById("result").innerHTML = updatedMarks;
+}
+</script>
+
+</body>
+</html>
