@@ -1,0 +1,226 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JWT Role Auth Dashboard</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:400px;
+    padding:30px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align:center;
+}
+
+input,select{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    border:none;
+    background:#667eea;
+    color:white;
+    font-weight:bold;
+    border-radius:6px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#5a67d8;
+}
+
+.dashboard{
+    margin-top:20px;
+}
+
+.response{
+    margin-top:10px;
+    background:#f4f4f4;
+    padding:10px;
+    border-radius:6px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>JWT Role Authentication</h2>
+
+<h3>Register</h3>
+
+<input id="regUsername" placeholder="Username">
+<input id="regPassword" placeholder="Password">
+<select id="regRole">
+<option value="user">User</option>
+<option value="Manager">Manager</option>
+<option value="Admin">Admin</option>
+</select>
+
+<button onclick="register()">Register</button>
+
+<hr>
+
+<h3>Login</h3>
+
+<input id="loginUsername" placeholder="Username">
+<input id="loginPassword" placeholder="Password">
+
+<button onclick="login()">Login</button>
+
+<div class="dashboard">
+
+<h3>Dashboards</h3>
+
+<button onclick="userDashboard()">User Dashboard</button>
+<button onclick="managerDashboard()">Manager Dashboard</button>
+<button onclick="adminDashboard()">Admin Dashboard</button>
+
+</div>
+
+<div class="response" id="result"></div>
+
+</div>
+
+<script>
+
+const API = "http://localhost:5228/api";
+
+function show(msg){
+    document.getElementById("result").innerText = msg;
+}
+
+async function register(){
+
+    const data={
+        username:document.getElementById("regUsername").value,
+        password:document.getElementById("regPassword").value,
+        role:document.getElementById("regRole").value
+    };
+
+    const res=await fetch(`${API}/auth/register`,{
+        method:"POST",
+        headers:{
+            "Content-Type":"application/json"
+        },
+        body:JSON.stringify(data)
+    });
+
+    const txt=await res.text();
+    show(txt);
+}
+
+async function login(){
+
+const data = {
+    username: document.getElementById("loginUsername").value,
+    password: document.getElementById("loginPassword").value
+};
+
+const res = await fetch(`${API}/auth/login`,{
+    method:"POST",
+    headers:{
+        "Content-Type":"application/json"
+    },
+    body:JSON.stringify(data)
+});
+
+const result = await res.text();
+console.log(result);
+
+}
+
+// async function login(){
+
+//     const data={
+//         username:document.getElementById("loginUsername").value,
+//         password:document.getElementById("loginPassword").value
+//     };
+
+//     const res=await fetch(`${API}/auth/login`,{
+//         method:"POST",
+//         headers:{
+//             "Content-Type":"application/json"
+//         },
+//         body:JSON.stringify(data)
+//     });
+
+//     const json=await res.json();
+
+//     if(json.token){
+//         localStorage.setItem("jwt",json.token);
+//         show("Login successful. Token stored.");
+//     }else{
+//         show("Login failed");
+//     }
+// }
+
+function getToken(){
+    return localStorage.getItem("jwt");
+}
+
+async function userDashboard(){
+
+    const res=await fetch(`${API}/user/dashboard`,{
+        headers:{
+            "Authorization":"Bearer "+getToken()
+        }
+    });
+
+    const txt=await res.text();
+    show(txt);
+}
+
+async function managerDashboard(){
+
+    const res=await fetch(`${API}/manager/dashboard`,{
+        headers:{
+            "Authorization":"Bearer "+getToken()
+        }
+    });
+
+    const txt=await res.text();
+    show(txt);
+}
+
+async function adminDashboard(){
+
+    const res=await fetch(`${API}/admin/dashboard`,{
+        headers:{
+            "Authorization":"Bearer "+getToken()
+        }
+    });
+
+    const txt=await res.text();
+    show(txt);
+}
+
+</script>
+
+</body>
+</html>
