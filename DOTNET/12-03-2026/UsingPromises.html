@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Promises + Dynamic Modules Example</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f6f9;
+    padding:40px;
+}
+
+.container{
+    max-width:600px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:10px;
+    padding:25px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.inputs{
+    display:flex;
+    gap:10px;
+    margin-bottom:15px;
+}
+
+input{
+    flex:1;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:8px 16px;
+    border:none;
+    background:#007bff;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.state{
+    margin-top:10px;
+    font-weight:bold;
+}
+
+.pending{
+    color:orange;
+}
+
+.fulfilled{
+    color:green;
+}
+
+.rejected{
+    color:red;
+}
+
+.results{
+    margin-top:20px;
+}
+
+.result{
+    margin:5px 0;
+    font-weight:bold;
+    color:#333;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Promise + Dynamic Module Calculator</h2>
+
+<div class="inputs">
+<input id="num1" placeholder="Enter first number">
+<input id="num2" placeholder="Enter second number">
+</div>
+
+<button onclick="runCalculation()">Calculate</button>
+
+<div id="state" class="state"></div>
+
+<div class="results">
+
+<div id="addResult" class="result"></div>
+<div id="subtractResult" class="result"></div>
+<div id="multiplyResult" class="result"></div>
+<div id="divideResult" class="result"></div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<script type="module">
+
+// ----- Module code (math.js simulated) -----
+
+const Utils = `
+
+export const PI = 3.14159;
+
+export function add(a,b){
+    return a+b;
+}
+
+export function subtract(a,b){
+    return a-b;
+}
+
+export function multiply(a,b){
+    return a*b;
+}
+
+export function divide(a,b){
+    if(b===0){
+        throw new Error("Cannot divide by zero");
+    }
+    return a/b;
+}
+
+`;
+
+// create module dynamically
+
+const blob = new Blob([Utils], {type:'text/javascript'});
+const url = URL.createObjectURL(blob);
+
+
+// ----- Import module and run calculation -----
+
+import(url).then(module => {
+
+window.runCalculation = function(){
+
+const a = Number(document.getElementById("num1").value);
+const b = Number(document.getElementById("num2").value);
+
+const state = document.getElementById("state");
+
+// Promise example
+
+const calculationPromise = new Promise((resolve,reject)=>{
+
+state.innerText="State: Pending...";
+state.className="state pending";
+
+setTimeout(()=>{
+
+if(isNaN(a) || isNaN(b)){
+reject("Invalid input. Please enter numbers.");
+return;
+}
+
+try{
+
+resolve({
+add: module.add(a,b),
+subtract: module.subtract(a,b),
+multiply: module.multiply(a,b),
+divide: module.divide(a,b)
+});
+
+}catch(err){
+
+reject(err.message);
+
+}
+
+},2000);
+
+});
+
+
+// fulfilled
+
+calculationPromise.then(result=>{
+
+state.innerText="State: Fulfilled";
+state.className="state fulfilled";
+
+document.getElementById("addResult").innerText =
+"Add: "+result.add;
+
+document.getElementById("subtractResult").innerText =
+"Subtract: "+result.subtract;
+
+document.getElementById("multiplyResult").innerText =
+"Multiply: "+result.multiply;
+
+document.getElementById("divideResult").innerText =
+"Divide: "+result.divide;
+
+})
+
+
+// rejected
+
+.catch(error=>{
+
+state.innerText="State: Rejected";
+state.className="state rejected";
+
+document.getElementById("addResult").innerText="";
+document.getElementById("subtractResult").innerText="";
+document.getElementById("multiplyResult").innerText="";
+document.getElementById("divideResult").innerText="";
+
+alert(error);
+
+});
+
+}
+
+})
+
+.catch(error=>{
+
+console.error("Module loading error:",error);
+
+});
+
+</script>
+
+</body>
+</html>

@@ -1,27 +1,20 @@
-using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
-namespace LeaveManagementAPI.Models
+public class LeaveRequest
 {
-    public class LeaveRequest
-    {
-        public int Id { get; set; }
+    public int Id { get; set; }
 
-        public int EmployeeId { get; set; }
+    [JsonIgnore]
+    public int EmployeeId { get; set; }
 
-        [Required]
-        // public string LeaveType? { get; set; }
-public string? LeaveType { get; set; }
+    public string LeaveType { get; set; }
 
-        [Required]
-        public DateTime StartDate { get; set; }
+    public DateTime StartDate { get; set; }
 
-        [Required]
-        public DateTime EndDate { get; set; }
+    public DateTime EndDate { get; set; }
 
-        [Required]
-public string? Reason { get; set; }
-        // public string Reason { get; set; }
+    public string Reason { get; set; }
 
-        public string Status { get; set; } = "Pending";
-    }
+    [JsonIgnore]
+    public string Status { get; set; } = "Pending";
 }

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Using Modules</title>
+
+<style>
+body{
+  font-family:Arial;
+  padding:40px;
+}
+
+h2{
+  margin-top:40px;
+}
+
+.container{
+  display:flex;
+  gap:40px;
+}
+
+.box{
+  border:1px solid #ccc;
+  padding:20px;
+  width:250px;
+  border-radius:8px;
+}
+
+input{
+  width:100%;
+  padding:6px;
+}
+
+button{
+  margin-top:10px;
+  padding:6px 12px;
+}
+
+.result{
+  margin-top:10px;
+  font-weight:bold;
+  color:blue;
+}
+</style>
+
+</head>
+<body>
+
+<h1>Using Modules in JavaScript</h1>
+
+<h2>Current Date</h2>
+<p id="date3"></p>
+
+<div class="container">
+
+<!-- Project 1 -->
+<div class="box">
+<h3>Project 1 (Normal Functions)</h3>
+
+<input id="email1" placeholder="Enter Email">
+
+<button onclick="checkEmail1()">Check Email</button>
+
+<div id="result1" class="result"></div>
+
+</div>
+
+
+<!-- Project 2 -->
+<div class="box">
+<h3>Project 2 (Duplicate Code)</h3>
+
+<input id="email2" placeholder="Enter Email">
+
+<button onclick="checkEmail2()">Check Email</button>
+
+<div id="result2" class="result"></div>
+
+</div>
+
+
+<!-- Project 3 -->
+<div class="box">
+<h3>Project 3 (Using Shared Utils)</h3>
+
+<input id="email3" placeholder="Enter Email">
+
+<button onclick="checkEmail3()">Check Email</button>
+
+<div id="result3" class="result"></div>
+
+</div>
+
+</div>
+
+<script>
+
+//Before using Modules project 1
+function formatDate(date){
+  return `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
+}
+
+function validateEmail(email){
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function checkEmail1(){
+  const email = document.getElementById('email1').value;
+  const result = validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+  document.getElementById('result1').innerText = result;
+}
+
+
+//Before using Modules Project 2 (duplicate code)
+
+function formatDate2(date){
+  return `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
+}
+
+function validateEmail2(email){
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function checkEmail2(){
+  const email = document.getElementById('email2').value;
+  const result = validateEmail2(email) ? 'Valid Email' : 'Invalid Email';
+  document.getElementById('result2').innerText = result;
+}
+
+
+//After using Modules Project (Shared code)
+
+const Utils = {
+
+  formatDate(date){
+    return `${date.getDate()}/${date.getMonth()+1}/${date.getFullYear()}`;
+  },
+
+  validateEmail(email){
+    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  }
+
+};
+
+document.getElementById('date3').innerText =
+  Utils.formatDate(new Date());
+
+
+function checkEmail3(){
+  const email = document.getElementById('email3').value;
+  const result = Utils.validateEmail(email) ? 'Valid Email' : 'Invalid Email';
+  document.getElementById('result3').innerText = result;
+}
+
+</script>
+
+</body>
+</html>

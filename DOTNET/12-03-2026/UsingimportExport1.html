@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dynamic Module Example</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f5f6fa;
+    padding:40px;
+}
+
+.container{
+    max-width:600px;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align:center;
+}
+
+.result{
+    margin-top:20px;
+    padding:10px;
+    background:#eef2ff;
+    border-left:4px solid #4f46e5;
+    font-weight:bold;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 16px;
+    border:none;
+    background:#4f46e5;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#4338ca;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<h1>Dynamic JavaScript Module Demo</h1>
+
+<button onclick="runModule()">Run Module</button>
+
+<div id="output"></div>
+
+</div>
+
+<script type="module">
+
+window.runModule = function(){
+
+const utils = `
+export const pi = 3.14159;
+
+export function add(a,b){
+ return a+b;
+}
+
+export function multiply(a,b){
+ return a*b;
+}
+
+export function subtract(a,b){
+ return a-b;
+}
+
+export function divide(a,b){
+ if(b==0){
+  return "Error: Division by zero is not allowed.";
+ }
+ return a/b;
+}
+`;
+
+const blob = new Blob([utils], {type:'text/javascript'});
+const url = URL.createObjectURL(blob);
+
+import(url).then(module => {
+
+const output = document.getElementById("output");
+
+output.innerHTML = `
+<div class="result">Pi: ${module.pi}</div>
+<div class="result">Add (5+3): ${module.add(5,3)}</div>
+<div class="result">Multiply (5×3): ${module.multiply(5,3)}</div>
+<div class="result">Subtract (5-3): ${module.subtract(5,3)}</div>
+<div class="result">Divide (5/0): ${module.divide(5,0)}</div>
+`;
+
+}).catch(error=>{
+console.error("Error loading module:",error);
+});
+
+}
+
+</script>
+
+</body>
+</html>
+
+
+<!-- <script type = "module">
+    const utils = `
+    export const pi = 3.14159;
+    export function add(a,b) {return a + b;}
+    export function multiply (a,b) {return a*b;}
+    export function subtract(a,b) {return a-b;}
+    export function divide (a,b) {
+      if(b==0) {return "Error: Division by zero is not allowed.";}
+    return a/b;}`;
+    const blob = new Blob([utils], { type: 'text/javascript' });
+    const url = URL.createObjectURL(blob);
+
+    //Dynamically import the utils module app.js
+    import(url).then(module => {
+        console.log("Pi:", module.pi);
+        console.log("Add:", module.add(5, 3));
+        console.log("Multiply:", module.multiply(5, 3));
+        console.log("Subtract:", module.subtract(5, 3));
+        console.log("Divide:", module.divide(5, 0)); // Testing division by zero
+    }).catch(error => {
+        console.error("Error loading module:", error);
+    });
+</script> -->

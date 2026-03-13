@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System.Security.Claims;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -10,9 +11,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add Controllers
 builder.Services.AddControllers();
 
+
 // SQLite Database
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // JWT Configuration
 var jwtKey = builder.Configuration["Jwt:Key"];
@@ -22,8 +25,22 @@ var jwtAudience = builder.Configuration["Jwt:Audience"];
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 .AddJwtBearer(options =>
 {
-    options.RequireHttpsMetadata = false;   // helpful during development
+    options.RequireHttpsMetadata = false;
     options.SaveToken = true;
+
+    options.Events = new JwtBearerEvents
+    {
+        OnAuthenticationFailed = context =>
+        {
+            Console.WriteLine("JWT FAILED");
+            return Task.CompletedTask;
+        },
+        OnTokenValidated = context =>
+        {
+            Console.WriteLine("JWT VALID");
+            return Task.CompletedTask;
+        }
+    };
 
     options.TokenValidationParameters = new TokenValidationParameters
     {
@@ -36,13 +53,19 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         ValidAudience = jwtAudience,
 
         IssuerSigningKey = new SymmetricSecurityKey(
-            Encoding.UTF8.GetBytes(jwtKey))
+            Encoding.UTF8.GetBytes(jwtKey)
+        ),
+
+        ClockSkew = TimeSpan.Zero,
+
+        RoleClaimType = ClaimTypes.Role
     };
 });
 
 builder.Services.AddAuthorization();
 
-// Swagger + JWT Authorize Button
+
+// Swagger + JWT
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(options =>
@@ -53,7 +76,6 @@ builder.Services.AddSwaggerGen(options =>
         Version = "v1"
     });
 
-    // JWT Security Definition
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -64,7 +86,6 @@ builder.Services.AddSwaggerGen(options =>
         Description = "Enter token like: Bearer {your JWT token}"
     });
 
-    // Apply JWT globally
     options.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
@@ -76,18 +97,22 @@ builder.Services.AddSwaggerGen(options =>
                     Id = "Bearer"
                 }
             },
-            Array.Empty<string>()
+            new string[] {}
         }
     });
 });
 
 var app = builder.Build();
 
-// Swagger Middleware
+
+// Swagger
 app.UseSwagger();
 app.UseSwaggerUI();
 
-// Authentication & Authorization
+
+// Middleware Order (IMPORTANT)
+app.UseRouting();
+
 app.UseAuthentication();
 app.UseAuthorization();
 

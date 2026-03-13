@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dynamic Module Example</title>
+
+<style>
+body{
+  font-family:Arial;
+  padding:40px;
+}
+
+.box{
+  border:1px solid #ccc;
+  padding:20px;
+  width:300px;
+  border-radius:8px;
+}
+
+.result{
+  margin:8px 0;
+  font-weight:bold;
+  color:blue;
+}
+
+button{
+  margin-top:10px;
+  padding:6px 12px;
+}
+</style>
+
+</head>
+<body>
+
+<h2>Dynamic Import Module Example</h2>
+
+<div class="box">
+
+<button onclick="runModule()">Run Calculations</button>
+
+<div id="pi" class="result"></div>
+<div id="add" class="result"></div>
+<div id="subtract" class="result"></div>
+<div id="multiply" class="result"></div>
+<div id="divide" class="result"></div>
+
+</div>
+
+<script type="module">
+
+// Module code as string
+const Utils = `
+export const PI = 3.14159;
+
+export function add(a,b){
+  return a + b;
+}
+
+export function subtract(a,b){
+  return a - b;
+}
+
+export function multiply(a,b){
+  return a * b;
+}
+
+export function divide(a,b){
+  if(b === 0){
+    throw new Error("Cannot divide by zero");
+  }
+  return a / b;
+}
+`;
+
+// Correct Blob syntax
+const blob = new Blob([Utils], {type:'text/javascript'});
+const url = URL.createObjectURL(blob);
+
+// Button function
+window.runModule = function(){
+
+import(url).then(module => {
+
+document.getElementById("pi").innerText =
+"PI: " + module.PI;
+
+document.getElementById("add").innerText =
+"Add (5 + 3): " + module.add(5,3);
+
+document.getElementById("subtract").innerText =
+"Subtract (5 - 3): " + module.subtract(5,3);
+
+document.getElementById("multiply").innerText =
+"Multiply (5 × 3): " + module.multiply(5,3);
+
+document.getElementById("divide").innerText =
+"Divide (5 ÷ 3): " + module.divide(5,3);
+
+}).catch(error => {
+console.error("Error importing module:", error);
+});
+
+}
+
+</script>
+
+</body>
+</html>
