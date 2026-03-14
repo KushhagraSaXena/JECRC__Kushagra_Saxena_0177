@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 using CourseManagementAPI.Data;
 using CourseManagementAPI.Models;
 using Microsoft.EntityFrameworkCore;
+using CourseManagementAPI.DTOs;
+
 
 namespace CourseManagementAPI.Controllers;
  
@@ -17,13 +19,20 @@ public class DepartmentController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<IActionResult> AddDepartment(Department department)
+    public async Task<IActionResult> AddDepartment([FromBody] DepartmentDTO dto)
     {
+        var department = new Department
+        {
+            DepartmentName = dto.DepartmentName
+        };
+
         _context.Departments.Add(department);
         await _context.SaveChangesAsync();
 
         return Ok(department);
     }
+
+
 
     [HttpGet]
     public async Task<IActionResult> GetDepartments()

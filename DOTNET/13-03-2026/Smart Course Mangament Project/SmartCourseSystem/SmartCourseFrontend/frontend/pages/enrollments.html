@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enrollments | Smart Course System</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 Smart Course System</div>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="courses.html">Courses</a>
+      <a href="enrollments.html" class="active">Enrollments</a>
+    </div>
+  </nav>
+
+  <main class="page-container">
+    <section class="page-header">
+      <h1>Enrollments</h1>
+      <p>Track active and dropped courses.</p>
+    </section>
+
+    <section class="toolbar">
+      <button class="btn btn-primary" onclick="loadActiveEnrollments()">Active</button>
+      <button class="btn btn-secondary" onclick="loadEnrollmentHistory()">History</button>
+    </section>
+
+    <section class="drop-panel">
+      <h3>Drop Course</h3>
+      <div class="form-row">
+        <input type="number" id="dropStudentIdInput" placeholder="Student ID" />
+        <input type="number" id="dropCourseIdInput" placeholder="Course ID" />
+        <button class="btn btn-secondary" onclick="dropCourse()">Drop</button>
+      </div>
+    </section>
+
+    <section id="messageBox"></section>
+    <section id="enrollmentsContainer" class="grid"></section>
+  </main>
+
+  <script src="../app.js"></script>
+  <script>
+    loadActiveEnrollments();
+  </script>
+</body>
+</html>

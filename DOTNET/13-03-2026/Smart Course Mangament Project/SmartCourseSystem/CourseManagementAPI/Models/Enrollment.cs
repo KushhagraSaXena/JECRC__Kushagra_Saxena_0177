@@ -1,14 +1,22 @@
+using System.Text.Json.Serialization;
+
 namespace CourseManagementAPI.Models;
+
 public class Enrollment
 {
     public int EnrollmentId { get; set; }
 
     public int CourseId { get; set; }
-    public Course Course { get; set; }
+
+    [JsonIgnore]
+    public Course? Course { get; set; }
 
     public int StudentId { get; set; }
-    public Student Student { get; set; }
+
+    [JsonIgnore]
+    public Student? Student { get; set; }
 
     public DateTime EnrollmentDate { get; set; }
-    public DateTime? DropDate { get; set; }
+
+    public DateTime? DropDate { get; set; } 
 }

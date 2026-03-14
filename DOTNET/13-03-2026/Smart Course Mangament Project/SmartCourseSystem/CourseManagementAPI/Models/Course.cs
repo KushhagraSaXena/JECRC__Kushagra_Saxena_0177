@@ -9,5 +9,6 @@ public class Course
     public Department? Department { get; set; }
 
     public int Credits { get; set; }
-    public bool SeatsAvailable { get; set; }
+    // public bool SeatsAvailable { get; set; }
+    public int SeatsAvailable { get; set; }
 }

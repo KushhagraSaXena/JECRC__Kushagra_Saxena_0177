@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses | Smart Course System</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">🎓 Smart Course System</div>
+    <div class="nav-links">
+      <a href="../index.html">Home</a>
+      <a href="courses.html" class="active">Courses</a>
+      <a href="enrollments.html">Enrollments</a>
+    </div>
+  </nav>
+
+  <main class="page-container">
+    <section class="page-header">
+      <h1>Courses</h1>
+      <p>Browse and search available courses.</p>
+    </section>
+
+    <section class="toolbar">
+      <input type="text" id="searchInput" placeholder="Search by course name..." />
+      <button class="btn btn-primary" onclick="searchCourses()">Search</button>
+      <button class="btn btn-secondary" onclick="loadCourses()">Reset</button>
+    </section>
+
+    <section class="enroll-panel">
+      <h3>Quick Enroll</h3>
+      <div class="form-row">
+        <input type="number" id="studentIdInput" placeholder="Student ID" />
+        <input type="number" id="courseIdInput" placeholder="Course ID" />
+        <button class="btn btn-primary" onclick="enrollStudent()">Enroll</button>
+      </div>
+    </section>
+
+    <section id="messageBox"></section>
+    <section id="coursesContainer" class="grid"></section>
+  </main>
+
+  <script src="../app.js"></script>
+  <script>
+    loadCourses();
+  </script>
+</body>
+</html>

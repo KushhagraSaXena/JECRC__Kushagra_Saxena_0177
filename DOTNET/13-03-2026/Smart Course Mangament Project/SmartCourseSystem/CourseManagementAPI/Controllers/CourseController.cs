@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CourseManagementAPI.Data; 
+using CourseManagementAPI.Data;
 using CourseManagementAPI.Models;
+using CourseManagementAPI.DTOs;
+
+namespace CourseManagementAPI.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-
 public class CourseController : ControllerBase
 {
     private readonly AppDbContext _context;
@@ -18,12 +20,22 @@ public class CourseController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetCourses()
     {
-        var courses = await _context.Courses.ToListAsync();
+        var courses = await _context.Courses
+            .Select(c => new CourseDTO
+            {
+                CourseId = c.CourseId,
+                CourseName = c.CourseName,
+                DepartmentId = c.DepartmentId,
+                Credits = c.Credits,
+                SeatsAvailable = c.SeatsAvailable
+            })
+            .ToListAsync();
+
         return Ok(courses);
     }
 
     [HttpPost]
-    public async Task<IActionResult> AddCourse(Course course)
+    public async Task<IActionResult> AddCourse([FromBody] Course course)
     {
         _context.Courses.Add(course);
         await _context.SaveChangesAsync();
@@ -31,7 +43,7 @@ public class CourseController : ControllerBase
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> UpdateCourse(int id, Course course)
+    public async Task<IActionResult> UpdateCourse(int id, [FromBody] Course course)
     {
         if (id != course.CourseId)
             return BadRequest();
@@ -54,5 +66,23 @@ public class CourseController : ControllerBase
         await _context.SaveChangesAsync();
 
         return Ok();
+    }
+
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchCourses(string keyword)
+    {
+        var courses = await _context.Courses
+            .Where(c => c.CourseName.Contains(keyword))
+            .Select(c => new CourseDTO
+            {
+                CourseId = c.CourseId,
+                CourseName = c.CourseName,
+                DepartmentId = c.DepartmentId,
+                Credits = c.Credits,
+                SeatsAvailable = c.SeatsAvailable
+            })
+            .ToListAsync();
+
+        return Ok(courses);
     }
 }
