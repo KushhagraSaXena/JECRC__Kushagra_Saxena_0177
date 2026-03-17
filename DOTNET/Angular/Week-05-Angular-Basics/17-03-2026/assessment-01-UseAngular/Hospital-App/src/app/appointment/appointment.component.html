@@ -1,0 +1,33 @@
+<div class="card">
+  <h2>Book Appointment</h2>
+
+  <label>Patient Name</label>
+  <input [(ngModel)]="appointment.name" (input)="emitData()" />
+
+  <label>Doctor</label>
+  <select [(ngModel)]="appointment.doctor" (change)="emitData()">
+    <option value="">Select</option>
+    <option>Dr. X</option>
+    <option>Dr. Y</option>
+    <option>Dr. Z</option>
+  </select>
+
+  <label>Date</label>
+  <input type="date"
+         [(ngModel)]="appointment.date"
+         [min]="today"
+         (change)="emitData()" />
+
+  <label>Consultation Type</label>
+  <select [(ngModel)]="appointment.type" (change)="updateFee()">
+    <option>Online</option>
+    <option>Offline</option>
+  </select>
+
+  <label>Symptoms</label>
+  <textarea [(ngModel)]="appointment.symptoms" (input)="emitData()"></textarea>
+
+  <p class="fee">Fee: ₹{{ fee }}</p>
+
+  <button (click)="emitData()">Confirm</button>
+</div>

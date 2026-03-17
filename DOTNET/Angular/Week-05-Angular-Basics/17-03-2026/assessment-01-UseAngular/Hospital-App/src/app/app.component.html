@@ -1,0 +1,11 @@
+<h1>Hospital Appointment System</h1>
+
+<div class="container">
+  <app-appointment
+    (appointmentChange)="appointmentData = $event">
+  </app-appointment>
+
+  <app-summary
+    [data]="appointmentData">
+  </app-summary>
+</div>

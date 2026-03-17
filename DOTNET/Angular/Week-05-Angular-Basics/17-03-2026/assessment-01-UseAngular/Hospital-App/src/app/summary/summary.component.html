@@ -1,0 +1,14 @@
+<div class="card">
+  <h2>Appointment Summary</h2>
+
+  <p><strong>Name:</strong> {{ data?.name }}</p>
+  <p><strong>Doctor:</strong> {{ data?.doctor }}</p>
+  <p><strong>Date:</strong> {{ data?.date }}</p>
+  <p><strong>Type:</strong> {{ data?.type }}</p>
+  <p><strong>Symptoms:</strong> {{ data?.symptoms }}</p>
+  <p><strong>Fee:</strong> ₹{{ data?.fee }}</p>
+
+  <div *ngIf="data?.name && data?.doctor && data?.date" class="success">
+    Appointment Confirmed!
+  </div>
+</div>
