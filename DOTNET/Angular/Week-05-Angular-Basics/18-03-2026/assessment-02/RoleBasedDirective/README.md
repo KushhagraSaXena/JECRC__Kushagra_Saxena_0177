@@ -1,23 +1,17 @@
-
 Problem Statement
 Question
-2
-Student Dashboard
+3
+Role-Based Directive
 Description
-Student Dashboard
-Requirements:
-Create student Dashboad use all these directives.
-Use *ngFor → List students
+Role-Based Directive
+Requirement Explanation: Using Custom Directive 
+The UI should restrict visibility of elements based on user role.
 
-Use *ngIf → Show pass/fail
+If user role = admin → show element
 
-Use ngSwitch → Grade system
+Otherwise → hide element
 
-Use ngClass → Highlight toppers
-
-Use ngStyle → Color pass/fail
-
-# StudentDashBoard
+# RoleBasedDirective
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
 

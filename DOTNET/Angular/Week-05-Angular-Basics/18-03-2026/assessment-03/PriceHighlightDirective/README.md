@@ -1,23 +1,4 @@
-
-Problem Statement
-Question
-2
-Student Dashboard
-Description
-Student Dashboard
-Requirements:
-Create student Dashboad use all these directives.
-Use *ngFor → List students
-
-Use *ngIf → Show pass/fail
-
-Use ngSwitch → Grade system
-
-Use ngClass → Highlight toppers
-
-Use ngStyle → Color pass/fail
-
-# StudentDashBoard
+# PriceHighlightDirective
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
 

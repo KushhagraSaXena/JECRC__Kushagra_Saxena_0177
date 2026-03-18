@@ -1,23 +1,16 @@
-
 Problem Statement
-Question
-2
-Student Dashboard
+Question 6
+Status Color Directive
 Description
-Student Dashboard
-Requirements:
-Create student Dashboad use all these directives.
-Use *ngFor → List students
+Using Custom Directive Status Color Directive
+Requirement Explanation
+The UI should visually indicate a student’s result status based on marks.
 
-Use *ngIf → Show pass/fail
+If marks are greater than or equal to passing criteria (e.g., 50) → show success (Green)
 
-Use ngSwitch → Grade system
+If marks are below passing criteria → show failure (Red)
 
-Use ngClass → Highlight toppers
-
-Use ngStyle → Color pass/fail
-
-# StudentDashBoard
+# CustomDirectiveStatusColorDirective
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
 

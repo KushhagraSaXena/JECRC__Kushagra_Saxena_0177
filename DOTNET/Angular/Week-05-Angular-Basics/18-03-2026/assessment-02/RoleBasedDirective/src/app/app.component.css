@@ -1,0 +1,71 @@
+.container {
+  text-align: center;
+  margin-top: 40px;
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Button */
+.btn {
+  padding: 10px 18px;
+  margin: 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Section Titles */
+.section-title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.admin-title {
+  color: #b8860b;
+}
+
+.user-title {
+  color: #2e7d32;
+}
+
+/* Cards */
+.card {
+  margin: 10px auto;
+  padding: 15px;
+  width: 280px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Admin Style */
+.admin {
+  background: #fff8dc;
+  border-left: 5px solid gold;
+}
+
+/* User Style */
+.user {
+  background: #e8f5e9;
+  border-left: 5px solid green;
+}
+
+/* Common */
+.common {
+  background: #e2e3e5;
+  border-left: 5px solid gray;
+}

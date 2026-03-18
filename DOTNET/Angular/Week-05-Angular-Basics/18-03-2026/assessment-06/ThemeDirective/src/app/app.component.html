@@ -1,0 +1,19 @@
+<div class="container" [appTheme]="theme">
+
+  <h1>🎨 Theme Directive</h1>
+
+  <button (click)="toggleTheme()" class="btn">
+    Switch Theme (Current: {{ theme }})
+  </button>
+
+  <div class="card">
+    <h3>Dashboard</h3>
+    <p>This content changes based on theme</p>
+  </div>
+
+  <div class="card">
+    <h3>Settings</h3>
+    <p>Theme applied using custom directive</p>
+  </div>
+
+</div>

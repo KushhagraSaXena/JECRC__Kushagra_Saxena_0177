@@ -1,23 +1,16 @@
-
+Frontend with Angular
 Problem Statement
-Question
-2
-Student Dashboard
+Question 7
+Theme Directive
 Description
-Student Dashboard
-Requirements:
-Create student Dashboad use all these directives.
-Use *ngFor → List students
+Theme Directive
+Requirement Explanation: Using Custom Directive 
+The UI should support dynamic theme switching:
+Dark Mode → Dark background + light text
+Light Mode → Light background + dark text
 
-Use *ngIf → Show pass/fail
 
-Use ngSwitch → Grade system
-
-Use ngClass → Highlight toppers
-
-Use ngStyle → Color pass/fail
-
-# StudentDashBoard
+# ThemeDirective
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
 

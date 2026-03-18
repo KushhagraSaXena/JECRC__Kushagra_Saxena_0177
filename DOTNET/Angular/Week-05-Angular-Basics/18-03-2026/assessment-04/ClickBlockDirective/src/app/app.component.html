@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>Click Block Directive</h1>
+
+  <button (click)="togglePermission()" class="toggle-btn">
+    Toggle Permission (Current: {{ isAllowed }})
+  </button>
+
+  <button 
+    class="action-btn"
+        [appClickBlock]="isAllowed"
+    (click)="handleClick()">
+    Click Me
+  </button>
+
+  <a 
+    href="https://google.com"
+    [appClickBlock]="isAllowed"
+    class="link">
+    Go to Google
+  </a>
+</div>

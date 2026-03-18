@@ -1,0 +1,16 @@
+<div class="container">
+  <h1>🎓 Student Status</h1>
+
+  <div *ngFor="let student of students" class="card">
+    <h3>{{ student.name }}</h3>
+
+    <!-- Apply directive -->
+    <p [appStatusColor]="student.marks">
+      Marks: {{ student.marks }}
+    </p>
+
+    <p [appStatusColor]="student.marks">
+      Status: {{ student.marks >= 50 ? 'Pass ✅' : 'Fail ❌' }}
+    </p>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+<div class="container">
+  <h1>🔐 Role Based Dashboard</h1>
+
+  <button (click)="toggleRole()" class="btn">
+    Switch Role (Current: {{ currentRole }})
+  </button>
+
+  <!-- ADMIN SECTION -->
+  <ng-container *appRole="{ requiredRole: 'admin', currentRole: currentRole }">
+    <div class="section-title admin-title">👑 Admin Panel</div>
+
+    <div class="card admin">📊 Reports</div>
+    <div class="card admin">⚙️ Settings</div>
+    <div class="card admin">🛠 Manage Users</div>
+  </ng-container>
+
+  <!-- USER SECTION -->
+  <ng-container *appRole="{ requiredRole: 'user', currentRole: currentRole }">
+    <div class="section-title user-title">👤 User Panel</div>
+
+    <div class="card user">📄 Profile</div>
+    <div class="card user">📦 Orders</div>
+    <div class="card user">💳 Payments</div>
+  </ng-container>
+
+  <!-- PUBLIC -->
+  <div class="card common">
+    🌍 Public Content (Always Visible)
+  </div>
+</div>

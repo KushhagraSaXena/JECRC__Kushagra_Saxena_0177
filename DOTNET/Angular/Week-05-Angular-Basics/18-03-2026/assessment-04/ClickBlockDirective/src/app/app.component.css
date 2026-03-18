@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial;
+}
+
+.toggle-btn {
+  padding: 10px 15px;
+  margin: 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.action-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 20px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link {
+  display: block;
+  margin-top: 20px;
+  color: blue;
+  text-decoration: underline;
+}

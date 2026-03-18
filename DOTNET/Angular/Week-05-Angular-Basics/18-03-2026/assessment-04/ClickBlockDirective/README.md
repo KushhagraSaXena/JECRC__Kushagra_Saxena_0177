@@ -1,23 +1,17 @@
-
 Problem Statement
 Question
-2
-Student Dashboard
+5
+Click Block Directive
 Description
-Student Dashboard
-Requirements:
-Create student Dashboad use all these directives.
-Use *ngFor → List students
+Click Block Directive
+Requirement Explanation: Using Custom Directive 
+The UI should prevent user interaction based on a condition.
 
-Use *ngIf → Show pass/fail
+If condition = false → block click
 
-Use ngSwitch → Grade system
+If condition = true → allow click
 
-Use ngClass → Highlight toppers
-
-Use ngStyle → Color pass/fail
-
-# StudentDashBoard
+# ClickBlockDirective
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.22.
 
