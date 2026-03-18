@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  background: #f5f7fa;
+  min-height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  margin: 10px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.topper {
+  border: 2px solid gold;
+  background: #fffbe6;
+}

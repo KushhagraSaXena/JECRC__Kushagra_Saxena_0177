@@ -1,0 +1,51 @@
+<h2>🛒 Product Order System</h2>
+
+<!-- Interpolation -->
+ <h3>Order Summary</h3>
+ <h3>Product Name: {{ productName }}</h3>
+ <h3>Price: {{ price  }}</h3>
+ <h3>Quantity: {{ quantity }}</h3>
+
+ <!-- Property Binding -->
+ <h3>Product Image:</h3>
+ <img [src]="imageUrl" [alt]="productName" width="200" />
+
+ 
+ <br><br>
+ 
+ <!-- Event Binding -->
+ <button (click) = "increaseQty()">Increase Quantity</button>
+ <button (click) = "decreaseQty()">Decrease Quantity</button>
+ <button (click) = "toggleAvailability()">
+   {{ isAvailable ? 'Mark as Unavailable' : 'Mark as Available' }}
+  </button>
+  
+  <p>Quantity: {{ quantity }}</p>
+  
+  <br>
+  <!-- Property + Event Binding -->
+  <button [disabled]="!isAvailable" (click)="toggleAvailability()">
+    {{ isAvailable ? 'In Stock' : 'Out of Stock' }}
+  </button>
+  <br>
+  <br>
+  <hr>
+
+<!-- Two way Binding -->
+ <h3>Customer Details</h3>
+
+ <input type="text" [(ngModel)]="customerName" placeholder="Enter name">
+ <br><br>
+
+ <textarea [(ngModel)]="address" placeholder="Enter address"></textarea>
+
+ <br>
+ <br>
+ <hr>
+
+ <!-- Interpolation Output -->
+  <h3>Order Summary</h3>
+  <p>Name: {{ customerName }}</p>
+  <p>Address: {{ address }}</p>
+  <p>Product Name: {{ productName }}</p>
+  <p>Total Amount: {{ getTotal() }}</p>
