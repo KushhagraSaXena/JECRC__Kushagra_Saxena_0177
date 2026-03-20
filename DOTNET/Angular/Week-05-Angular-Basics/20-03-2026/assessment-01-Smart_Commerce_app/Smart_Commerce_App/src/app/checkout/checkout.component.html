@@ -1,0 +1,67 @@
+<h2>Checkout</h2>
+
+<form #f="ngForm">
+
+<input name="name" ngModel placeholder="Full Name">
+
+<input type="email" name="email" ngModel placeholder="Email">
+
+<input type="number" name="phone" ngModel placeholder="Phone">
+
+<!-- RADIO -->
+<label>
+  <input type="radio" name="gender" value="male" ngModel> Male
+</label>
+
+<!-- CHECKBOX -->
+<label>
+  <input type="checkbox" name="terms" ngModel required>
+  Accept Terms
+</label>
+
+<!-- DROPDOWN -->
+<select name="city" ngModel>
+  <option>Udaipur</option>
+  <option>Jaipur</option>
+</select>
+
+<!-- DATE -->
+<input type="date" name="date" ngModel>
+
+<!-- TEXTAREA -->
+<textarea name="notes" ngModel></textarea>
+
+<!-- FILE -->
+<input type="file">
+
+<!-- MULTIPLE ADDRESS -->
+<div *ngFor="let addr of addresses; let i = index">
+  <input [(ngModel)]="addresses[i]" name="addr{{i}}">
+</div>
+
+<button type="button" (click)="addAddress()">Add Address</button>
+
+<hr>
+
+<!-- PAYMENT -->
+<label>
+  <input type="radio" value="card" name="pay" [(ngModel)]="paymentMethod"> Card
+</label>
+
+<label>
+  <input type="radio" value="upi" name="pay" [(ngModel)]="paymentMethod"> UPI
+</label>
+
+<div *ngIf="paymentMethod === 'card'">
+  <input placeholder="Card Number">
+  <input placeholder="CVV">
+</div>
+
+<div *ngIf="paymentMethod === 'upi'">
+  <input placeholder="UPI ID">
+</div>
+
+<br><br>
+<button type="submit">Place Order</button>
+
+</form>

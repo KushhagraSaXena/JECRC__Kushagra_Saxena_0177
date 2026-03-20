@@ -1,0 +1,22 @@
+<h2>Cart</h2>
+
+<div class="cart-item" *ngFor="let item of cartItems; let i = index">
+  <div>
+    <h4>{{ item.name }}</h4>
+    <p>{{ item.price | currency:'INR' }}</p>
+  </div>
+
+  <div class="actions">
+    <button (click)="item.qty = item.qty + 1">+</button>
+    <span>{{ item.qty }}</span>
+    <button (click)="item.qty = item.qty - 1">-</button>
+  </div>
+
+  <div>
+    {{ item.price * item.qty | currency:'INR' }}
+  </div>
+
+  <button class="remove" (click)="remove.emit(i)">Remove</button>
+</div>
+
+<h3>Total: {{ getTotal() | currency:'INR' }}</h3>

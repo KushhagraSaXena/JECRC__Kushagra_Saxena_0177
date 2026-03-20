@@ -1,0 +1,7 @@
+<h2>📊 Dashboard</h2>
+
+<div class="dash">
+  <div class="box">Products: {{ getTotalItems() }}</div>
+  <div class="box">Quantity: {{ getTotalQuantity() }}</div>
+  <div class="box">Total: {{ getTotalPrice() | currency:'INR' }}</div>
+</div>

@@ -1,0 +1,17 @@
+<nav class="navbar">
+  <div class="logo">🛒 SmartCommerce</div>
+
+  <div class="nav-links">
+    <a>Products</a>
+    <a>Cart</a>
+    <a>Checkout</a>
+    <a>Dashboard</a>
+  </div>
+</nav>
+
+<div class="container">
+  <app-product (add)="addToCart($event)"></app-product>
+  <app-cart [cartItems]="cartItems"></app-cart>
+  <app-dashboard [cartItems]="cartItems"></app-dashboard>
+  <app-checkout></app-checkout>
+</div>

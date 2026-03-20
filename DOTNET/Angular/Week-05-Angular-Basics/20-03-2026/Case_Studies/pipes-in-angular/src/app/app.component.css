@@ -1,0 +1,56 @@
+/* Page Styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Date Box */
+p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Order Card Container */
+div {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 12px 0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover Effect */
+div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* Labels */
+b {
+  color: #34495e;
+}
+
+/* Price Highlight */
+p:nth-child(3) {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Status Styling */
+p:last-child {
+  font-weight: bold;
+}
+
+p:last-child::after {
+  content: " ✔";
+  color: green;
+}

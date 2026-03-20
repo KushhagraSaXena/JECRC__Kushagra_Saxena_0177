@@ -1,0 +1,18 @@
+<h3>📃 Order Details (Child)</h3>
+
+<div class="card">
+  <p><b>Order ID: </b>{{orderData.id}}</p>
+  <p><b>Product Name: </b>{{ orderData.ProductName }}</p>
+  <p><b>Price: </b>₹ {{ orderData.Price }}</p>
+  <p><b>Status: </b>{{ orderData.status }}</p>
+</div>
+
+<hr>
+
+<h3>⚙️ Lifecycle Logs (Live UI)</h3>
+
+<div class="log-box">
+  <div *ngFor="let log of logs">
+    {{ log }}
+  </div>
+</div>
