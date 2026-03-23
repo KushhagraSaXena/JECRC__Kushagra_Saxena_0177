@@ -53,15 +53,18 @@
 </label>
 
 <div *ngIf="paymentMethod === 'card'">
-  <input placeholder="Card Number">
-  <input placeholder="CVV">
+  <input name="cardNumber" ngModel placeholder="Card Number">
+  <input name="cvv" ngModel placeholder="CVV">
 </div>
 
 <div *ngIf="paymentMethod === 'upi'">
-  <input placeholder="UPI ID">
+  <input name="upiId" ngModel placeholder="UPI ID">
 </div>
 
 <br><br>
-<button type="submit">Place Order</button>
+<button type="button" (click)="placeOrder()">Place Order</button>
+<div *ngIf="orderPlaced" class="success">
+  Order placed successfully!
+</div>
 
 </form>
