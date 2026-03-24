@@ -1,0 +1,21 @@
+<h2>All Courses</h2>
+
+<div class="courses-container">
+  <div class="course-card" *ngFor="let course of courses">
+    <div class="course-thumb">
+      <img [src]="getImage(course.name)" alt="{{course.name}}" />
+    </div>
+    <div class="course-body">
+      <h3>{{ course.name }} <span class="emoji">📚</span></h3>
+      <p class="meta">Duration: {{ course.duration }} • Trainer: {{ course.trainer }}</p>
+      <div class="card-actions">
+        <a class="btn btn-primary" [routerLink]="['/course', course.id]">Details</a>
+        <a class="btn btn-ghost" href="#">Report</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!courses || courses.length === 0">
+  <p>No courses available at the moment.</p>
+</div>

@@ -1,0 +1,36 @@
+/* App global styles */
+:root{
+  --bg:#f6fbff;
+  --card:#ffffff;
+  --primary:#1e88e5;
+  --accent:#42a5f5;
+  --text:#263238;
+}
+body{ margin:0; font-family: Inter, Roboto, system-ui, Arial; background:var(--bg); color:var(--text); }
+
+.app-header{
+  background: linear-gradient(90deg,var(--primary),var(--accent));
+  color: #080a45;
+  padding: 1rem 1.25rem;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+.brand{ display:flex; gap:0.5rem; align-items:center; font-weight:700; }
+.brand-title{ font-size:1.1rem }
+.brand-sub{ font-size:0.85rem; opacity:0.9 }
+
+.main-container{ max-width:1100px; margin:1.25rem auto; padding:1rem; }
+
+.app-footer{ text-align:center; padding:1rem; color:#666; font-size:0.9rem }
+
+/* Utility button style used across components */
+.btn{
+  display:inline-block; padding:0.5rem 0.8rem; border-radius:8px; border:none; cursor:pointer; font-weight:600; text-decoration:none;
+}
+.btn-primary{ background:var(--primary); color:#fff; box-shadow:0 4px 14px rgba(30,136,229,0.18)}
+.btn-primary:hover{ transform:translateY(-2px); box-shadow:0 8px 20px rgba(30,136,229,0.22) }
+.btn-ghost{ background:transparent; border:1px solid rgba(0,0,0,0.06); color:var(--text) }
+
+/* small responsive tweaks */
+@media (max-width:700px){ .main-container{ padding:0.5rem } .app-header{ flex-direction:column; align-items:flex-start } }

@@ -1,0 +1,22 @@
+/* Dashboard styles */
+h2 { color: #333; }
+
+.dashboard-top{ display:flex; gap:1rem; align-items:center; justify-content:space-between; margin-bottom:1.25rem }
+.welcome h1{ margin:0 0 0.25rem 0 }
+.welcome p{ margin:0 0 0.75rem 0; color:#546e7a }
+
+.stats{ display:flex; gap:0.75rem }
+.stat-card{ background:var(--card); padding:1rem; border-radius:10px; box-shadow:0 6px 18px rgba(10,10,10,0.04); min-width:120px; text-align:center }
+.stat-value{ font-size:1.4rem; font-weight:700 }
+.stat-label{ color:#607d8b }
+
+.featured-courses h2{ margin-bottom:0.75rem }
+.courses-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:1rem }
+.course-card{ background:var(--card); border-radius:12px; overflow:hidden; display:flex; gap:0.75rem; align-items:center; padding:0.75rem; box-shadow:0 8px 30px rgba(0,0,0,0.05) }
+.course-card img{ width:88px; height:88px; object-fit:contain; background:#f3f8ff; border-radius:8px; padding:6px }
+.course-info h3{ margin:0 0 0.25rem 0 }
+.course-info p{ margin:0 0 0.5rem 0; color:#546e7a }
+.actions{ display:flex; gap:0.5rem }
+
+/* small screens */
+@media(max-width:700px){ .dashboard-top{ flex-direction:column; align-items:flex-start } }
