@@ -1,13 +1,107 @@
-<h2>💳 CheckOut</h2>
+<div class="checkout-container">
+  <h2 class="section-title">💳 Checkout</h2>
 
-<input [(ngModel)]="form.name" placeholder="Name" required />
-<input [(ngModel)]="form.email" placeholder="Email" required />
-<textarea [(ngModel)]="form.address" placeholder="Address"></textarea>
+  <div class="checkout-content">
+    <div class="form-container">
+      <form class="checkout-form">
+        <div class="form-section">
+          <h3 class="form-section-title">Personal Information</h3>
+          
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input 
+              id="name"
+              type="text" 
+              [(ngModel)]="form.name" 
+              name="name"
+              placeholder="John Doe" 
+              required 
+              class="form-input"
+            />
+          </div>
 
-<select [(ngModel)]="form.payment">
-  <option value="">Select Payment</option>
-  <option value="Card">Card</option>
-  <option value="Upi">UPI</option>
-</select>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input 
+              id="email"
+              type="email" 
+              [(ngModel)]="form.email" 
+              name="email"
+              placeholder="john@example.com" 
+              required 
+              class="form-input"
+            />
+          </div>
+        </div>
 
-<button (click)="submit()">Place Order</button>
+        <div class="form-section">
+          <h3 class="form-section-title">Shipping Address</h3>
+          
+          <div class="form-group">
+            <label for="address">Address *</label>
+            <textarea 
+              id="address"
+              [(ngModel)]="form.address" 
+              name="address"
+              placeholder="Enter your shipping address" 
+              required
+              class="form-input"
+              rows="4"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="form-section">
+          <h3 class="form-section-title">Payment Method</h3>
+          
+          <div class="form-group">
+            <label for="payment">Select Payment Method *</label>
+            <select 
+              id="payment"
+              [(ngModel)]="form.payment" 
+              name="payment"
+              required
+              class="form-input"
+            >
+              <option value="">-- Select Payment Mode --</option>
+              <option value="Card">💳 Credit/Debit Card</option>
+              <option value="Upi">📱 UPI</option>
+              <option value="NetBanking">🏦 Net Banking</option>
+              <option value="Wallet">💰 Digital Wallet</option>
+            </select>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      <div class="summary-items">
+        <p class="summary-text">Review your order before placing it</p>
+      </div>
+      <div class="summary-total">
+        <div class="total-row">
+          <span>Items:</span>
+          <span>₹999.99</span>
+        </div>
+        <div class="total-row">
+          <span>Shipping:</span>
+          <span>₹50.00</span>
+        </div>
+        <div class="total-row">
+          <span>Tax:</span>
+          <span>₹52.50</span>
+        </div>
+        <div class="total-row grand-total">
+          <span>Total:</span>
+          <span>₹1,102.49</span>
+        </div>
+      </div>
+      <button class="place-order-btn" (click)="submit()">
+        <span class="btn-icon">✓</span>
+        <span>Place Order</span>
+      </button>
+      <p class="terms-text">By placing an order, you agree to our Terms & Conditions</p>
+    </div>
+  </div>
+</div>

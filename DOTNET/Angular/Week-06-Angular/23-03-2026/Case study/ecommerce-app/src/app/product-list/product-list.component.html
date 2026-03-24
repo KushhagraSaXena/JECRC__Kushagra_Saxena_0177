@@ -1,8 +1,24 @@
-<h2> Products</h2>
-
-<div *ngFor="let product of products" class="card">
-  <p>{{product.name}}</p>
-  <p>{{product.price}}</p>
-
-  <button (click)="addToCart(product)">Add to Card</button>
+<div class="products-container">
+  <h2 class="section-title">📦 Featured Products</h2>
+  
+  <div class="products-grid">
+    <div *ngFor="let product of products" class="product-card">
+      <div class="product-image">
+        <div class="image-placeholder">{{product.name.substring(0,1)}}</div>
+      </div>
+      
+      <div class="product-content">
+        <h3 class="product-name">{{product.name}}</h3>
+        <p class="product-description">High quality {{product.name.toLowerCase()}}</p>
+        
+        <div class="product-footer">
+          <span class="product-price">₹{{product.price | number:'1.2-2'}}</span>
+          <button class="add-to-cart-btn" (click)="addToCart(product)">
+            <span>Add to Cart</span>
+            <span class="icon">🛒</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

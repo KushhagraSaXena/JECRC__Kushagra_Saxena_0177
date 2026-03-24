@@ -14,6 +14,7 @@ import { ProductList } from "./product-list/product-list.component";
   
   <div class="container">
     <app-product-list></app-product-list>
+    <app-cart></app-cart>
     <app-checkout></app-checkout>
   </div>
 `
