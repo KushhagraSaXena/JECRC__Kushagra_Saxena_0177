@@ -1,0 +1,83 @@
+/* Navigation Styles */
+.navbar {
+  padding: 16px 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar.light {
+  background-color: white;
+  color: #2c3e50;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.navbar.dark {
+  background-color: #34495e;
+  color: #ecf0f1;
+  border-bottom: 2px solid #2c3e50;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand h1 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.nav-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-badge {
+  background-color: rgba(52, 152, 219, 0.1);
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.user-department {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .user-badge {
+    width: 100%;
+    text-align: center;
+  }
+}
