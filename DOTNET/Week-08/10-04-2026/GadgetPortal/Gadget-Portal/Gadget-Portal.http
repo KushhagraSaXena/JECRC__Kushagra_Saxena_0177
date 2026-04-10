@@ -1,0 +1,6 @@
+@Gadget_Portal_HostAddress = http://localhost:5096
+
+GET {{Gadget_Portal_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
