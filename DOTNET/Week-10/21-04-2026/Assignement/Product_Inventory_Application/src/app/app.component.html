@@ -1,0 +1,69 @@
+<div class="container">
+  <h1>{{ title }}</h1>
+
+  <!-- Filter Section - Category dropdown and buttons -->
+  <div class="filter-section">
+    <div class="filter-group">
+      <!-- Category filter dropdown -->
+      <select [(ngModel)]="selectedCategory" class="category-select">
+        <option value="">Select Category (All)</option>
+        <option *ngFor="let category of categories" [value]="category">
+          {{ category }}
+        </option>
+      </select>
+      
+      <!-- Filter button - applies category filter -->
+      <button (click)="applyFilter()" class="btn-filter">Filter</button>
+    </div>
+
+    <!-- In-stock only checkbox -->
+    <div class="filter-group">
+      <label class="checkbox-label">
+        <input type="checkbox" [(ngModel)]="showInStockOnly" (change)="applyFiltersAndSort()">
+        Show In-Stock Only
+      </label>
+    </div>
+
+    <!-- Reset filters button -->
+    <div class="filter-group">
+      <button (click)="resetFilters()" class="btn-reset">Reset Filters</button>
+    </div>
+  </div>
+
+  <!-- Products Table -->
+  <div class="table-section">
+    <!-- Show table only if products exist -->
+    <table *ngIf="filteredProducts.length > 0">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Product Name</th>
+          <th>Category</th>
+          <!-- Clickable price header for sorting -->
+          <th (click)="sortByPriceAscending()" class="sortable-header">
+            Price ($)
+            <span *ngIf="sortByPrice" class="sort-indicator">↑</span>
+          </th>
+          <th>Stock Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Display each filtered product in a row -->
+        <tr *ngFor="let product of filteredProducts">
+          <td>{{ product.id }}</td>
+          <td>{{ product.name }}</td>
+          <td>{{ product.category }}</td>
+          <td>${{ product.price | number: '1.2-2' }}</td>
+          <td [ngClass]="getStockClass(product.stock)">
+            {{ getStockStatus(product.stock) }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- No results message -->
+    <div *ngIf="filteredProducts.length === 0" class="no-results">
+      No products found matching your filters. Try adjusting your selection.
+    </div>
+  </div>
+</div>
