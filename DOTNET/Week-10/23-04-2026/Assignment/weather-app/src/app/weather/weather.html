@@ -1,0 +1,82 @@
+<div class="weather-wrapper">
+  <!-- Animated gradient background -->
+  <div class="gradient-bg"></div>
+  
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>Weather</h1>
+      <p>Find weather for any city</p>
+    </div>
+
+    <!-- Search Card -->
+    <div class="search-card">
+      <div class="search-bar">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input
+          data-test-id="app-input"
+          type="text"
+          class="city-input"
+          placeholder="Search city..."
+          [value]="searchInput"
+          (input)="onSearch($event.target.value)"
+          autocomplete="off"
+        />
+      </div>
+    </div>
+
+    <!-- Weather Results -->
+    <div *ngIf="searched && result" data-test-id="weather-details" class="weather-result">
+      <!-- Location Header -->
+      <div class="location-header">
+        <h2>{{ result.name }}</h2>
+      </div>
+
+      <!-- Temperature Display -->
+      <div class="temp-section">
+        <div class="temp-display">
+          <div class="temp-value">{{ result.temperature }}</div>
+        </div>
+      </div>
+
+      <!-- Weather Stats -->
+      <div class="stats-container">
+        <div data-test-id="output-wind" class="stat-item">
+          <span class="stat-icon">💨</span>
+          <div class="stat-info">
+            <p class="stat-label">Wind</p>
+            <p class="stat-value">{{ result.wind }}</p>
+          </div>
+        </div>
+
+        <div data-test-id="output-humidity" class="stat-item">
+          <span class="stat-icon">💧</span>
+          <div class="stat-info">
+            <p class="stat-label">Humidity</p>
+            <p class="stat-value">{{ result.humidity }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- No Results State -->
+    <div *ngIf="searched && !result" data-test-id="no-results" class="empty-message">
+      <div class="empty-icon">🌫️</div>
+      <p>City not found</p>
+      <span>Try another search</span>
+    </div>
+
+    <!-- Initial State -->
+    <div *ngIf="!searched" class="initial-state">
+      <div class="weather-emojis">
+        <span class="emoji-item">🌤️</span>
+        <span class="emoji-item">🌧️</span>
+        <span class="emoji-item">⛅</span>
+      </div>
+      <p class="hint-text">Enter a city name to get started</p>
+    </div>
+  </div>
+</div>
