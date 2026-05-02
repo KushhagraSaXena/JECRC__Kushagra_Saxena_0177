@@ -1,0 +1,33 @@
+@model EMPSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <h1>@ViewData["Title"]</h1>
+            <hr />
+
+            <dl class="row">
+                <dt class="col-sm-3">Name</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Name)</dd>
+
+                <dt class="col-sm-3">Department</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Department)</dd>
+
+                <dt class="col-sm-3">Salary</dt>
+                <dd class="col-sm-9">$@Html.DisplayFor(model => model.Salary)</dd>
+
+                <dt class="col-sm-3">Created Date</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.CreatedDate)</dd>
+            </dl>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+</div>

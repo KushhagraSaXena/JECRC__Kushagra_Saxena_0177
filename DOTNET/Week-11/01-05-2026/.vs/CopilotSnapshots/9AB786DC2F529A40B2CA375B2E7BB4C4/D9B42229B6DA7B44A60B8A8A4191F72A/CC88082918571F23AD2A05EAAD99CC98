@@ -1,0 +1,25 @@
+﻿version: '3.8'
+
+services:
+  empsystem:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: empsystem-app
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__DefaultConnection=Data Source=/app/data/emp_system.db
+    volumes:
+      - empsystem-data:/app/data
+    networks:
+      - empsystem-network
+
+volumes:
+  empsystem-data:
+    driver: local
+
+networks:
+  empsystem-network:
+    driver: bridge

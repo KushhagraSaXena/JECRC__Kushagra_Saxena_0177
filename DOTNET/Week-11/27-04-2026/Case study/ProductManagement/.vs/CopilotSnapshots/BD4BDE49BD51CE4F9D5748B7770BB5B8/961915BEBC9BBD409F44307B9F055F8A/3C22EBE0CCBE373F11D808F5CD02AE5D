@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Home - Product Management System";
+}
+
+<div class="container mt-5">
+    <div class="row mb-5">
+        <div class="col-md-12 text-center">
+            <h1 class="display-3 mb-4">Welcome to Product Management System</h1>
+            <p class="lead text-muted">Manage your products efficiently with our comprehensive management platform</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Products Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 hover-card">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-shopping-bag" style="font-size: 3rem; color: #007bff;"></i>
+                    </div>
+                    <h5 class="card-title">Manage Products</h5>
+                    <p class="card-text text-muted">View, create, edit, and delete your products</p>
+                    <a href="@Url.Action("Index", "Products")" class="btn btn-primary btn-lg mt-3">
+                        View All Products
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Create Product Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 hover-card">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-plus-circle" style="font-size: 3rem; color: #28a745;"></i>
+                    </div>
+                    <h5 class="card-title">Add New Product</h5>
+                    <p class="card-text text-muted">Create a new product with details and tags</p>
+                    <a href="@Url.Action("Create", "Products")" class="btn btn-success btn-lg mt-3">
+                        Create Product
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quick Stats Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm border-0 hover-card">
+                <div class="card-body text-center">
+                    <div class="mb-3">
+                        <i class="fas fa-chart-bar" style="font-size: 3rem; color: #ffc107;"></i>
+                    </div>
+                    <h5 class="card-title">Quick Stats</h5>
+                    <p class="card-text text-muted">Get an overview of your inventory</p>
+                    <a href="@Url.Action("Index", "Products")" class="btn btn-warning btn-lg mt-3">
+                        View Statistics
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-5" />
+
+    <!-- Quick Access Section -->
+    <div class="row mt-5">
+        <div class="col-md-12">
+            <h3 class="mb-4">Quick Access</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="list-group">
+                <a href="@Url.Action("Index", "Products")" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">📋 View All Products</h5>
+                    <p class="mb-1">Browse your complete product catalog</p>
+                </a>
+                <a href="@Url.Action("Create", "Products")" class="list-group-item list-group-item-action">
+                    <h5 class="mb-1">➕ Create New Product</h5>
+                    <p class="mb-1">Add a new product to your inventory</p>
+                </a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="list-group">
+                <div class="list-group-item list-group-item-light">
+                    <h5 class="mb-1">📊 Features</h5>
+                    <ul class="mb-0">
+                        <li>Complete CRUD operations</li>
+                        <li>Product categorization</li>
+                        <li>Tag management</li>
+                        <li>Detailed product information</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5 p-4 bg-light rounded">
+        <div class="col-md-12">
+            <h5>About This System</h5>
+            <p class="text-muted">
+                This Product Management System is built with ASP.NET Core MVC and Entity Framework Core, using SQLite as the database. 
+                It provides a complete solution for managing products, including categories, tags, and detailed product information.
+            </p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .hover-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .hover-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15) !important;
+    }
+</style>

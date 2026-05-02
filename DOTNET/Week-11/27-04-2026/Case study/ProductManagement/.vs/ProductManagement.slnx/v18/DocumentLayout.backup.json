@@ -1,0 +1,491 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\products\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\products\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\products\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\products\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\productmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\productmanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\controllers\\productscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\controllers\\productscontroller1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\productdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\repositories\\implementations\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\dtos\\productresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\repositories\\interfaces\\iproductrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\repositories\\interfaces\\iproductrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\producttag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\NAVIGATION_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NAVIGATION_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\case study\\productmanagement\\productmanagement\\wwwroot\\sitemap.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC267C07-FFF4-163E-B2E0-A33ADB099F94}|ProductManagement\\ProductManagement.csproj|solutionrelative:productmanagement\\wwwroot\\sitemap.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\CRUD_TESTING_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CRUD_TESTING_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\FIXES_APPLIED.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FIXES_APPLIED.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FIXES_APPLIED.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\FIXES_APPLIED.md",
+              "RelativeDocumentMoniker": "FIXES_APPLIED.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\FIXES_APPLIED.md",
+              "RelativeToolTip": "FIXES_APPLIED.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-28T10:44:32.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CRUD_TESTING_GUIDE.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\CRUD_TESTING_GUIDE.md",
+              "RelativeDocumentMoniker": "CRUD_TESTING_GUIDE.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\CRUD_TESTING_GUIDE.md",
+              "RelativeToolTip": "CRUD_TESTING_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-28T10:44:16.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "sitemap.html",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\wwwroot\\sitemap.html",
+              "RelativeDocumentMoniker": "ProductManagement\\wwwroot\\sitemap.html",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\wwwroot\\sitemap.html",
+              "RelativeToolTip": "ProductManagement\\wwwroot\\sitemap.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-04-28T10:12:30.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NAVIGATION_GUIDE.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\NAVIGATION_GUIDE.md",
+              "RelativeDocumentMoniker": "NAVIGATION_GUIDE.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\NAVIGATION_GUIDE.md",
+              "RelativeToolTip": "NAVIGATION_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-04-28T10:12:12.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T10:11:07.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\DbInitializer.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\DbInitializer.cs",
+              "RelativeToolTip": "ProductManagement\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:05:20.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Delete.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Products\\Delete.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Delete.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Products\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T10:00:18.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Products\\Edit.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Edit.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Products\\Edit.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T10:00:11.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Products\\Create.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Create.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Products\\Create.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T10:00:03.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Details.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Products\\Details.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Details.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Products\\Details.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T09:59:55.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Products\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T09:59:48.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductManagement\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ProductManagement\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T09:42:21.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "ProductManagement\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "ProductManagement\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-28T09:42:03.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ProductManagement\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ProductManagement\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-28T09:41:55.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductManagement",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+              "RelativeDocumentMoniker": "ProductManagement\\ProductManagement.csproj",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\ProductManagement.csproj",
+              "RelativeToolTip": "ProductManagement\\ProductManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-28T09:20:18.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductsController1.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Controllers\\ProductsController1.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Controllers\\ProductsController1.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Controllers\\ProductsController1.cs",
+              "RelativeToolTip": "ProductManagement\\Controllers\\ProductsController1.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T07:04:43.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductDetail.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\ProductDetail.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\ProductDetail.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\ProductDetail.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\ProductDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:59:50.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\Product.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\Product.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\Product.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAArwBIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:46:29.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Program.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Program.cs",
+              "RelativeToolTip": "ProductManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:22:19.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ProductManagement\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T07:02:15.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\DTOs\\ProductDto.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "ProductManagement\\DTOs\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:56:31.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductManagement\\appsettings.json",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\appsettings.json",
+              "RelativeToolTip": "ProductManagement\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-27T06:53:53.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\Tag.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\Tag.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\Tag.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:37:46.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductResponseDto.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "RelativeToolTip": "ProductManagement\\DTOs\\ProductResponseDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:58:57.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "RelativeToolTip": "ProductManagement\\Repositories\\Implementations\\ProductRepository.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAIBJwJkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:29:59.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IProductRespository.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Repositories\\Interfaces\\IProductRespository.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Repositories\\Interfaces\\IProductRespository.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Repositories\\Interfaces\\IProductRespository.cs",
+              "RelativeToolTip": "ProductManagement\\Repositories\\Interfaces\\IProductRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T05:31:50.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ProductTag.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\ProductTag.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\ProductTag.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\ProductTag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T06:37:58.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ProductManagement\\Models\\Category.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\Case study\\ProductManagement\\ProductManagement\\Models\\Category.cs",
+              "RelativeToolTip": "ProductManagement\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T05:51:26.264Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

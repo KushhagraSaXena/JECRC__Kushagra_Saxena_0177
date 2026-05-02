@@ -1,0 +1,169 @@
+﻿using Microsoft.EntityFrameworkCore;
+using ProductManagement.Data;
+using ProductManagement.DTOs;
+using ProductManagement.Models;
+using ProductManagement.Repositories.Interfaces;
+
+namespace ProductManagement.Repositories.Implementations
+{
+    public class ProductRepository : IProductRepository
+    {
+        private readonly AppDbContext _context;
+        public ProductRepository(AppDbContext context)
+        {
+            _context = context;
+        }
+
+
+        public async Task<IEnumerable<ProductResponseDto>> GetAllAsync()
+        {
+            return await _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.ProductDetail)
+                .Include(p => p.ProductTags).ThenInclude(pt => pt.Tag)
+                .Select(p=> new ProductResponseDto
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Price = p.Price,
+                    CategoryName = p.Category.Name,
+                    Description = p.ProductDetail.Description,
+                    TagIds = p.ProductTags.Select(pt => pt.TagId).ToList()
+                }).ToListAsync();
+        }
+
+        public async Task<ProductResponseDto> GetByIdAsync(int id)
+        {
+            var p = await _context.Products
+                .Include(p => p.Category)
+                .Include(p => p.ProductDetail)
+                .Include(p => p.ProductTags).ThenInclude(pt => pt.Tag)
+                .FirstOrDefaultAsync(p => p.Id == id);
+            if (p == null)
+            {
+                return null!;
+            }
+
+            return new ProductResponseDto
+            {
+                Id = p.Id,
+                Name = p.Name,
+                Price = p.Price,
+                CategoryName = p.Category.Name,
+                Description = p.ProductDetail?.Description,
+                TagIds = p.ProductTags.Select(pt => pt.TagId).ToList()
+            };
+        }
+
+        public async Task<bool> UpdateAsync(int id, ProductResponseDto dto)
+        {
+            try
+            {
+                var product = await _context.Products
+                    .Include(p => p.ProductDetail)
+                    .Include(p => p.ProductTags)
+                    .FirstOrDefaultAsync(p => p.Id == id);
+
+                if (product == null)
+                    return false;
+
+                product.Name = dto.Name;
+                product.Price = dto.Price;
+                product.CategoryId = dto.CategoryId;
+
+                if (product.ProductDetail != null)
+                {
+                    product.ProductDetail.Description = dto.Description;
+                }
+
+                // Update ProductTags
+                _context.ProductTags.RemoveRange(product.ProductTags);
+                if (dto.TagIds != null && dto.TagIds.Count > 0)
+                {
+                    product.ProductTags = dto.TagIds.Select(tagId => new ProductTag
+                    {
+                        ProductId = id,
+                        TagId = tagId
+                    }).ToList();
+                }
+
+                _context.Products.Update(product);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public async Task<int> CreateAsync(ProductResponseDto dto)
+        {
+            try
+            {
+                var product = new Product
+                {
+                    Name = dto.Name,
+                    Price = dto.Price,
+                    CategoryId = dto.CategoryId,
+                    ProductDetail = new ProductDetail
+                    {
+                        Description = dto.Description,
+                        createdAt = DateTime.UtcNow
+                    }
+                };
+
+                _context.Products.Add(product);
+                await _context.SaveChangesAsync();
+
+                // Add ProductTags
+                if (dto.TagIds != null && dto.TagIds.Count > 0)
+                {
+                    var productTags = dto.TagIds.Select(tagId => new ProductTag
+                    {
+                        ProductId = product.Id,
+                        TagId = tagId
+                    }).ToList();
+
+                    _context.ProductTags.AddRange(productTags);
+                    await _context.SaveChangesAsync();
+                }
+
+                return product.Id;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"Create Error: {ex.Message}");
+                return 0;
+            }
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            try
+            {
+                var product = await _context.Products
+                    .Include(p => p.ProductDetail)
+                    .Include(p => p.ProductTags)
+                    .FirstOrDefaultAsync(p => p.Id == id);
+
+                if (product == null)
+                    return false;
+
+                if (product.ProductDetail != null)
+                    _context.ProductDetails.Remove(product.ProductDetail);
+
+                if (product.ProductTags != null && product.ProductTags.Count > 0)
+                    _context.ProductTags.RemoveRange(product.ProductTags);
+
+                _context.Products.Remove(product);
+                await _context.SaveChangesAsync();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+    }
+}
