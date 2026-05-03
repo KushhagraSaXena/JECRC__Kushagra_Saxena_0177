@@ -1,0 +1,582 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\emsmvcday2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:emsmvcday2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\emsapiday2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:emsapiday2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\employee\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\FINAL_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\FILE_MANIFEST.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DOCKER_SETUP_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\run-docker.bat||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\run-docker.ps1||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\QUICKSTART.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\SETUP_COMPLETE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\INDEX.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\VISUAL_GUIDE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\00_START_HERE.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DELIVERY_CHECKLIST.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|d:\\corporate training\\jecrc_kushagrasaxena_0177\\dotnet\\week-11\\02-05-2026\\assignment\\emsmvcday2\\ui_improvements_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{484A2058-2F4C-7F92-9FF7-E60E602F241E}|EmsMvcDay2.csproj|solutionrelative:ui_improvements_summary.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DOCKER_COMMANDS.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\RUNNING_NOW.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COMMAND_CARD.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DO_THIS_NOW.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COMPLETE_SETUP.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EXECUTIVE_SUMMARY.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\QUICK_START_NOW.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\START_HERE_FINAL.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COPY_PASTE_COMMANDS.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmsMvcDay2",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\EmsMvcDay2.csproj",
+              "RelativeDocumentMoniker": "EmsMvcDay2.csproj",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\EmsMvcDay2.csproj",
+              "RelativeToolTip": "EmsMvcDay2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-03T19:12:42.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\EmsApiDay2\\appsettings.json",
+              "RelativeDocumentMoniker": "EmsApiDay2\\appsettings.json",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\EmsApiDay2\\appsettings.json",
+              "RelativeToolTip": "EmsApiDay2\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T16:59:37.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-03T16:43:56.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T16:36:26.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-03T16:36:15.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DOCKER_COMMANDS.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DOCKER_COMMANDS.md",
+              "RelativeDocumentMoniker": "..\\DOCKER_COMMANDS.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DOCKER_COMMANDS.md",
+              "RelativeToolTip": "..\\DOCKER_COMMANDS.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAO4BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:36:04.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:05.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:05.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\docker-compose.yml",
+              "RelativeDocumentMoniker": "..\\docker-compose.yml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\docker-compose.yml",
+              "RelativeToolTip": "..\\docker-compose.yml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-03T12:30:01.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RUNNING_NOW.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\RUNNING_NOW.md",
+              "RelativeDocumentMoniker": "..\\RUNNING_NOW.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\RUNNING_NOW.md",
+              "RelativeToolTip": "..\\RUNNING_NOW.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:37:33.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "COMMAND_CARD.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COMMAND_CARD.md",
+              "RelativeDocumentMoniker": "..\\COMMAND_CARD.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COMMAND_CARD.md",
+              "RelativeToolTip": "..\\COMMAND_CARD.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:37:59.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "QUICK_START_NOW.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\QUICK_START_NOW.md",
+              "RelativeDocumentMoniker": "..\\QUICK_START_NOW.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\QUICK_START_NOW.md",
+              "RelativeToolTip": "..\\QUICK_START_NOW.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAPkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:42:26.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "START_HERE_FINAL.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\START_HERE_FINAL.md",
+              "RelativeDocumentMoniker": "..\\START_HERE_FINAL.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\START_HERE_FINAL.md",
+              "RelativeToolTip": "..\\START_HERE_FINAL.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:43:05.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Delete.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:05.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAADEAAAAAAAAAAAASwDIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:05.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:05.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "COPY_PASTE_COMMANDS.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COPY_PASTE_COMMANDS.md",
+              "RelativeDocumentMoniker": "..\\COPY_PASTE_COMMANDS.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COPY_PASTE_COMMANDS.md",
+              "RelativeToolTip": "..\\COPY_PASTE_COMMANDS.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:43:36.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DO_THIS_NOW.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DO_THIS_NOW.md",
+              "RelativeDocumentMoniker": "..\\DO_THIS_NOW.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DO_THIS_NOW.md",
+              "RelativeToolTip": "..\\DO_THIS_NOW.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:38:35.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "COMPLETE_SETUP.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COMPLETE_SETUP.md",
+              "RelativeDocumentMoniker": "..\\COMPLETE_SETUP.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\COMPLETE_SETUP.md",
+              "RelativeToolTip": "..\\COMPLETE_SETUP.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:39:14.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EXECUTIVE_SUMMARY.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EXECUTIVE_SUMMARY.md",
+              "RelativeDocumentMoniker": "..\\EXECUTIVE_SUMMARY.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EXECUTIVE_SUMMARY.md",
+              "RelativeToolTip": "..\\EXECUTIVE_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:40:58.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:05.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-03T12:30:04.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "DELIVERY_CHECKLIST.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DELIVERY_CHECKLIST.md",
+              "RelativeDocumentMoniker": "..\\DELIVERY_CHECKLIST.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DELIVERY_CHECKLIST.md",
+              "RelativeToolTip": "..\\DELIVERY_CHECKLIST.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:04.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "00_START_HERE.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\00_START_HERE.md",
+              "RelativeDocumentMoniker": "..\\00_START_HERE.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\00_START_HERE.md",
+              "RelativeToolTip": "..\\00_START_HERE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:04.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FINAL_SUMMARY.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\FINAL_SUMMARY.md",
+              "RelativeDocumentMoniker": "..\\FINAL_SUMMARY.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\FINAL_SUMMARY.md",
+              "RelativeToolTip": "..\\FINAL_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:27:49.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UI_IMPROVEMENTS_SUMMARY.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\UI_IMPROVEMENTS_SUMMARY.md",
+              "RelativeDocumentMoniker": "UI_IMPROVEMENTS_SUMMARY.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\EmsMvcDay2\\UI_IMPROVEMENTS_SUMMARY.md",
+              "RelativeToolTip": "UI_IMPROVEMENTS_SUMMARY.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:05.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "VISUAL_GUIDE.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\VISUAL_GUIDE.md",
+              "RelativeDocumentMoniker": "..\\VISUAL_GUIDE.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\VISUAL_GUIDE.md",
+              "RelativeToolTip": "..\\VISUAL_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:04.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "INDEX.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\INDEX.md",
+              "RelativeDocumentMoniker": "..\\INDEX.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\INDEX.md",
+              "RelativeToolTip": "..\\INDEX.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:04.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SETUP_COMPLETE.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\SETUP_COMPLETE.md",
+              "RelativeDocumentMoniker": "..\\SETUP_COMPLETE.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\SETUP_COMPLETE.md",
+              "RelativeToolTip": "..\\SETUP_COMPLETE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:03.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QUICKSTART.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\QUICKSTART.md",
+              "RelativeDocumentMoniker": "..\\QUICKSTART.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\QUICKSTART.md",
+              "RelativeToolTip": "..\\QUICKSTART.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:03.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\README.md",
+              "RelativeDocumentMoniker": "..\\README.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\README.md",
+              "RelativeToolTip": "..\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:03.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "run-docker.ps1",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\run-docker.ps1",
+              "RelativeDocumentMoniker": "..\\run-docker.ps1",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\run-docker.ps1",
+              "RelativeToolTip": "..\\run-docker.ps1",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-03T12:30:03.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "run-docker.bat",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\run-docker.bat",
+              "RelativeDocumentMoniker": "..\\run-docker.bat",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\run-docker.bat",
+              "RelativeToolTip": "..\\run-docker.bat",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000614|",
+              "WhenOpened": "2026-05-03T12:30:03.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": ".env",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\.env",
+              "RelativeDocumentMoniker": "..\\.env",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\.env",
+              "RelativeToolTip": "..\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-03T12:30:02.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DOCKER_SETUP_GUIDE.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DOCKER_SETUP_GUIDE.md",
+              "RelativeDocumentMoniker": "..\\DOCKER_SETUP_GUIDE.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\DOCKER_SETUP_GUIDE.md",
+              "RelativeToolTip": "..\\DOCKER_SETUP_GUIDE.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:30:02.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FILE_MANIFEST.md",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\FILE_MANIFEST.md",
+              "RelativeDocumentMoniker": "..\\FILE_MANIFEST.md",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\02-05-2026\\Assignment\\FILE_MANIFEST.md",
+              "RelativeToolTip": "..\\FILE_MANIFEST.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-03T12:28:44.499Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

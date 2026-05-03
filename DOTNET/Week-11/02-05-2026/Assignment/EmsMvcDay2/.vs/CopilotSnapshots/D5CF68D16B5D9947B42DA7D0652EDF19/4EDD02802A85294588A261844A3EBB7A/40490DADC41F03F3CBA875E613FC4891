@@ -1,0 +1,55 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-lg-8 offset-lg-2">
+            <h1 class="mb-4">@ViewData["Title"]</h1>
+
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">Data Protection & Privacy</h5>
+                    <p class="card-text">
+                        This Employee Management System collects and processes employee information including name, department, and salary information. 
+                        All data is securely stored in our SQL Server database running in Docker containers.
+                    </p>
+
+                    <h6 class="mt-4">Information We Collect</h6>
+                    <ul>
+                        <li>Employee Name</li>
+                        <li>Department</li>
+                        <li>Salary Information</li>
+                        <li>Record Creation Date</li>
+                    </ul>
+
+                    <h6 class="mt-4">How We Use Your Data</h6>
+                    <p>
+                        The employee data collected is used solely for internal employee management purposes within your organization. 
+                        The microservice architecture ensures data isolation and security.
+                    </p>
+
+                    <h6 class="mt-4">Security</h6>
+                    <p>
+                        Your data is protected by:
+                    </p>
+                    <ul>
+                        <li>Docker containerization for isolation</li>
+                        <li>ASP.NET Core security features</li>
+                        <li>Secure API endpoints</li>
+                        <li>SQL Server database encryption</li>
+                    </ul>
+
+                    <h6 class="mt-4">Contact Us</h6>
+                    <p>
+                        For any questions regarding your privacy or this policy, please contact your system administrator.
+                    </p>
+
+                    <div class="alert alert-info mt-4">
+                        <small>Last Updated: May 3, 2026</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

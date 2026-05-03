@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EmsApiDay2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+daf5dd28b243cfde57078e5d1581c4afcd2b72d0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6752fb60d26d6b4ab231b70cca1c365d0c1ce1c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EmsApiDay2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EmsApiDay2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

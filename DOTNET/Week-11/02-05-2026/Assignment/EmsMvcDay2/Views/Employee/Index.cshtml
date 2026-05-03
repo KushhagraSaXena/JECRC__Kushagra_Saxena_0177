@@ -1,0 +1,70 @@
+﻿@model IEnumerable<EmsMvcDay2.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<div class="container-fluid py-4">
+    <div class="row mb-4">
+        <div class="col-md-8">
+            <h2 class="fw-bold">
+                <span style="color: #4CAF50;">👥</span> Employee Directory
+            </h2>
+            <small class="text-muted">Fetched from API via Docker Network (localhost:8082)</small>
+        </div>
+        <div class="col-md-4 text-end">
+            <a asp-action="Create" class="btn btn-success btn-lg">
+                <i class="bi bi-plus-circle"></i> Add New Employee
+            </a>
+        </div>
+    </div>
+
+    @if (Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-hover table-bordered shadow-sm">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Department</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                <span class="badge bg-primary">@item.Id</span>
+                            </td>
+                            <td class="fw-semibold">@item.Name</td>
+                            <td>
+                                <span class="badge bg-info text-dark">@item.Department</span>
+                            </td>
+                            <td class="text-center">
+                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning" title="Edit Employee">
+                                    ✏️ Edit
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" title="Delete Employee">
+                                    🗑️ Delete
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning shadow-sm" role="alert">
+            <h5 class="alert-heading">⚠️ No Employees Found</h5>
+            <p class="mb-0">
+                There are currently no employees in the system. 
+                <a asp-action="Create" class="alert-link">Click here to add your first employee</a>
+            </p>
+        </div>
+    }
+</div>
+

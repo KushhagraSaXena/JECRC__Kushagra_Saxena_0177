@@ -1,0 +1,65 @@
+﻿version: '3.8'
+
+services:
+  # SQL Server Database Container
+  mssql-day2:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: mssql-day2
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "SuperSecretPass123!"
+      MSSQL_PID: "Express"
+    ports:
+      - "1434:1433"
+    volumes:
+      - mssql-data:/var/opt/mssql
+    networks:
+      - ems-network
+    healthcheck:
+      test: /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P SuperSecretPass123! -Q "SELECT 1" || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  # API Container
+  ems-api-day2:
+    build:
+      context: ./EmsApiDay2
+      dockerfile: Dockerfile
+    container_name: ems-api-day2
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+    ports:
+      - "8081:8080"
+    depends_on:
+      mssql-day2:
+        condition: service_healthy
+    networks:
+      - ems-network
+    restart: unless-stopped
+
+  # MVC Container
+  ems-mvc-day2:
+    build:
+      context: ./EmsMvcDay2
+      dockerfile: Dockerfile
+    container_name: ems-mvc-day2
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+    ports:
+      - "8082:8080"
+    depends_on:
+      - ems-api-day2
+    networks:
+      - ems-network
+    restart: unless-stopped
+
+volumes:
+  mssql-data:
+
+networks:
+  ems-network:
+    driver: bridge

@@ -1,0 +1,58 @@
+﻿@model EmsMvcDay2.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete Employee";
+}
+
+<div class="container py-4">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="card shadow-lg border-danger">
+                <div class="card-header bg-danger text-white">
+                    <h4 class="mb-0">
+                        <span style="font-size: 1.5em;">⚠️</span> Confirm Delete
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Are you sure?</strong> This action cannot be undone.
+                    </div>
+
+                    <div class="card bg-light mb-4">
+                        <div class="card-body">
+                            <h6 class="card-title">Employee Details:</h6>
+                            <dl class="row mb-0">
+                                <dt class="col-sm-4">ID:</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge bg-primary">@Model.Id</span>
+                                </dd>
+
+                                <dt class="col-sm-4">Name:</dt>
+                                <dd class="col-sm-8">
+                                    <strong>@Model.Name</strong>
+                                </dd>
+
+                                <dt class="col-sm-4">Department:</dt>
+                                <dd class="col-sm-8">
+                                    <span class="badge bg-info text-dark">@Model.Department</span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+
+                    <form asp-action="Delete" method="post" class="d-inline w-100">
+                        <input type="hidden" asp-for="Id" />
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <a asp-action="Index" class="btn btn-secondary btn-lg">
+                                ← Cancel
+                            </a>
+                            <button type="submit" class="btn btn-danger btn-lg" onclick="return confirm('This will permanently delete this employee record. Continue?')">
+                                🗑️ Delete Permanently
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
