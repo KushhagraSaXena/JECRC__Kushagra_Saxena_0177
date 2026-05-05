@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5tFbjIjuUp8=",
+  "success": true,
+  "projectFilePath": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-11\\05-04-2026\\Case Study\\ProjectCICD\\ProjectCICD.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Kushagra\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}
