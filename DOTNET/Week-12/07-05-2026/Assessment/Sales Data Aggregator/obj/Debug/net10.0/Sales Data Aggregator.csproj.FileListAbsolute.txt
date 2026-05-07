@@ -1,0 +1,15 @@
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\bin\Debug\net10.0\Sales Data Aggregator.exe
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\bin\Debug\net10.0\Sales Data Aggregator.deps.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\bin\Debug\net10.0\Sales Data Aggregator.runtimeconfig.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\bin\Debug\net10.0\Sales Data Aggregator.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\bin\Debug\net10.0\Sales Data Aggregator.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.AssemblyInfo.cs
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.sourcelink.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\refint\Sales Data Aggregator.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\Sales Data Aggregator.genruntimeconfig.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\Sales Data Aggregator\obj\Debug\net10.0\ref\Sales Data Aggregator.dll

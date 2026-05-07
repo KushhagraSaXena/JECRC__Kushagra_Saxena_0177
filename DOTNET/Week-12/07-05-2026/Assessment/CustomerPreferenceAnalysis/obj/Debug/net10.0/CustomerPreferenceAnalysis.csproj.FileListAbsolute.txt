@@ -1,0 +1,15 @@
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\bin\Debug\net10.0\CustomerPreferenceAnalysis.exe
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\bin\Debug\net10.0\CustomerPreferenceAnalysis.deps.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\bin\Debug\net10.0\CustomerPreferenceAnalysis.runtimeconfig.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\bin\Debug\net10.0\CustomerPreferenceAnalysis.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\bin\Debug\net10.0\CustomerPreferenceAnalysis.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.AssemblyInfo.cs
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.sourcelink.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\refint\CustomerPreferenceAnalysis.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\CustomerPreferenceAnalysis.genruntimeconfig.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\07-05-2026\Assessment\CustomerPreferenceAnalysis\obj\Debug\net10.0\ref\CustomerPreferenceAnalysis.dll
