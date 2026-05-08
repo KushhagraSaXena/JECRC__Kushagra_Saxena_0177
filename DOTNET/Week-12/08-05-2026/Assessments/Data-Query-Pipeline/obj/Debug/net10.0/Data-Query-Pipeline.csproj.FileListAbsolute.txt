@@ -1,0 +1,30 @@
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.exe
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.deps.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.runtimeconfig.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.AssemblyInfoInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.AssemblyInfo.cs
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.csproj.CoreCompileInputs.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.sourcelink.json
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\refint\Data-Query-Pipeline.dll
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.pdb
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.genruntimeconfig.cache
+C:\Users\Aman\OneDrive\Desktop\JECRC_Aman_Nahar_0177\week-12-CI-CD\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\ref\Data-Query-Pipeline.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.exe
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.deps.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.runtimeconfig.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\bin\Debug\net10.0\Data-Query-Pipeline.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.GeneratedMSBuildEditorConfig.editorconfig
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.AssemblyInfoInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.AssemblyInfo.cs
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.csproj.CoreCompileInputs.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.sourcelink.json
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\refint\Data-Query-Pipeline.dll
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.pdb
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\Data-Query-Pipeline.genruntimeconfig.cache
+D:\Corporate Training\JECRC_KushagraSaxena_0177\DOTNET\Week-12\08-05-2026\Assessments\Data-Query-Pipeline\obj\Debug\net10.0\ref\Data-Query-Pipeline.dll
