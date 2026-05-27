@@ -1,0 +1,95 @@
+@model IEnumerable<FoodOrdering.Domain.Entities.Order>
+
+<div class="container py-4">
+
+    <h2 class="fw-bold mb-4">
+        My Orders
+    </h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">
+            No orders found.
+        </div>
+    }
+
+    @foreach (var order in Model)
+    {
+        <div class="card shadow-sm border-0 mb-4">
+
+            <div class="card-header d-flex justify-content-between align-items-center">
+
+                <div>
+
+                    <strong>
+                        Order #@order.Id
+                    </strong>
+
+                    <br />
+
+                    <small class="text-muted">
+                        @order.OrderDate
+                    </small>
+
+                </div>
+
+                <span class="badge bg-success fs-6">
+                    @order.Status
+                </span>
+
+            </div>
+
+            <div class="card-body">
+
+                <table class="table">
+
+                    <thead>
+
+                        <tr>
+                            <th>Food</th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        @foreach (var item in order.OrderItems)
+                        {
+                            <tr>
+
+                                <td>
+                                    @item.FoodItem?.Name
+                                </td>
+
+                                <td>
+                                    @item.Quantity
+                                </td>
+
+                                <td>
+                                    ₹ @item.Price
+                                </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+
+                <div class="text-end">
+
+                    <h5 class="fw-bold text-primary">
+                        Total:
+                        ₹ @order.TotalAmount
+                    </h5>
+
+                </div>
+
+            </div>  
+
+        </div>
+    }
+
+</div>

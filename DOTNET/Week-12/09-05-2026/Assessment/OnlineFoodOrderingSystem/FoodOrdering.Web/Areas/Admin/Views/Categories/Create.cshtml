@@ -1,0 +1,36 @@
+@model FoodOrdering.Domain.Entities.Category
+
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+<div class="container mt-4">
+
+    <h2>Create Category</h2>
+
+    <form method="post">
+
+        <div class="mb-3">
+
+            <label class="form-label">
+                Category Name
+            </label>
+
+            <input asp-for="Name"
+                   class="form-control" />
+
+        </div>
+
+        <button type="submit"
+                class="btn btn-success">
+            Save
+        </button>
+
+        <a asp-action="Index"
+           class="btn btn-secondary">
+            Back
+        </a>
+
+    </form>
+
+</div>

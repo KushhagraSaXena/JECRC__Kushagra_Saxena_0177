@@ -1,0 +1,863 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kushagra\\.copilot\\plans\\plan-dockerize-web,-api,-and-sql-server.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Services\\InvoicePdfGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Services\\InvoicePdfGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kushagra\\.copilot\\plans\\plan-pdf-invoice-system-and-github-actions-fix.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownSecurePreview"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Order\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Order\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Controllers\\OrdersController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Food\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\Food\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Cart\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Food\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Food\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\OrderSuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Cart\\OrderSuccess.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Controllers\\CartController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Domain\\Entities\\OrderItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\Order.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Domain\\Entities\\Order.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Domain\\Models\\CartItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodItemsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodItemsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Controllers\\DashboardController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Helpers\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Helpers\\DbInitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodItemsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\Controllers\\FoodItemsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\CategoriesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\Controllers\\CategoriesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\FoodItemDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\DTOs\\FoodItemDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\CategoryDto.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\DTOs\\CategoryDto.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Shared\\_LoginPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodTestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\Controllers\\FoodTestController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\FoodOrdering.Web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\FoodOrdering.Web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\FoodOrdering.API.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\FoodOrdering.API.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\FoodOrdering.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Domain\\FoodOrdering.Domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\FoodItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Domain\\Entities\\FoodItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Domain\\Entities\\Category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Orders\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Orders\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Orders\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Areas\\Admin\\Views\\Orders\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\Success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Cart\\Success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.Web\\Views\\Home\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\.github\\workflows\\dotnet.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.github\\workflows\\dotnet.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:FoodOrdering.API\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:docker-compose.yml||{06C066C6-04A2-4E5D-8202-439FD4234EF1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-09T10:18:06.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Dockerfile",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Dockerfile",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Dockerfile",
+              "RelativeToolTip": "FoodOrdering.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-09T10:17:56.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Dockerfile",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Dockerfile",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Dockerfile",
+              "RelativeToolTip": "FoodOrdering.Web\\Dockerfile",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswBUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-09T10:17:49.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "plan-dockerize-web,-api,-and-sql-server.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\Kushagra\\.copilot\\plans\\plan-dockerize-web,-api,-and-sql-server.md",
+              "ToolTip": "C:\\Users\\Kushagra\\.copilot\\plans\\plan-dockerize-web,-api,-and-sql-server.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-09T10:17:33.683Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InvoicePdfGenerator.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Services\\InvoicePdfGenerator.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Services\\InvoicePdfGenerator.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Services\\InvoicePdfGenerator.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Services\\InvoicePdfGenerator.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAHEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T10:14:43.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "dotnet.yml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\.github\\workflows\\dotnet.yml",
+              "RelativeDocumentMoniker": ".github\\workflows\\dotnet.yml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\.github\\workflows\\dotnet.yml",
+              "RelativeToolTip": ".github\\workflows\\dotnet.yml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2026-05-09T10:13:08.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "plan-pdf-invoice-system-and-github-actions-fix.md [Preview]",
+              "DocumentMoniker": "C:\\Users\\Kushagra\\.copilot\\plans\\plan-pdf-invoice-system-and-github-actions-fix.md",
+              "ToolTip": "C:\\Users\\Kushagra\\.copilot\\plans\\plan-pdf-invoice-system-and-github-actions-fix.md [Preview]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-09T10:12:18.232Z",
+              "EditorCaption": " [Preview]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAABBwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T10:08:19.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\Success.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Cart\\Success.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\Success.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Cart\\Success.cshtml",
+              "ViewState": "AgIAAIwAAAAAAAAAAABBwI8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T10:05:35.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T10:04:15.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAowJcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T09:59:48.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T09:59:02.508Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Orders\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Orders\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Orders\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Orders\\Index.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAABBwHMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T09:39:59.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Order\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAowFkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T09:32:26.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\OrdersController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T09:31:51.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAiwHUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T08:21:41.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Food\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Food\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Food\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Food\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:43:53.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T06:37:25.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderSuccess.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\OrderSuccess.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Cart\\OrderSuccess.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Cart\\OrderSuccess.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Cart\\OrderSuccess.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T08:32:55.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Controllers\\CartController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Controllers\\CartController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:20:58.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "FoodOrdering.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:25:54.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Food\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\Food\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Food\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\Food\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwGEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:35:06.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "FoodOrdering.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:49:01.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Create.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Create.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Create.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Create.cshtml",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAiwGAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:21:29.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\FoodItems\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwGQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:21:13.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Domain\\Entities\\Order.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "FoodOrdering.Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:25:29.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Domain\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Models\\CartItem.cs",
+              "RelativeToolTip": "FoodOrdering.Domain\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T08:20:02.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FoodController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:31:34.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FoodItemsController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodItemsController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodItemsController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodItemsController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\FoodItemsController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAAAE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:20:07.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Create.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAACMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:08:16.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\Categories\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:07:57.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:07:04.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Program.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Program.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Program.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:50:04.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T07:05:21.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T07:04:26.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Helpers\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Helpers\\DbInitializer.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Helpers\\DbInitializer.cs",
+              "RelativeToolTip": "FoodOrdering.Web\\Helpers\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:54:28.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FoodItemsController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodItemsController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\FoodItemsController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodItemsController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\FoodItemsController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:44:18.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:43:57.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\appsettings.json",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\appsettings.json",
+              "RelativeToolTip": "FoodOrdering.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T06:43:15.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FoodItemDto.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\FoodItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:42:57.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "FoodOrdering.API\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:42:28.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "FoodOrdering.Web\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-09T06:36:40.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "FoodTestController.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodTestController.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Controllers\\FoodTestController.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Controllers\\FoodTestController.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Controllers\\FoodTestController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAwwB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:17:31.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Program.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\Program.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\Program.cs",
+              "RelativeToolTip": "FoodOrdering.API\\Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T06:16:47.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FoodOrdering.Web.csproj",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "RelativeToolTip": "FoodOrdering.Web\\FoodOrdering.Web.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwA0AAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T05:59:07.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FoodOrdering.API.http",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.http",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\FoodOrdering.API.http",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.http",
+              "RelativeToolTip": "FoodOrdering.API\\FoodOrdering.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-05-09T05:58:44.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FoodOrdering.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "RelativeToolTip": "FoodOrdering.Infrastructure\\FoodOrdering.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T05:57:47.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FoodOrdering.Domain.csproj",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\FoodOrdering.Domain.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.Domain\\FoodOrdering.Domain.csproj",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\FoodOrdering.Domain.csproj",
+              "RelativeToolTip": "FoodOrdering.Domain\\FoodOrdering.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T05:57:35.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FoodOrdering.API.csproj",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj",
+              "RelativeDocumentMoniker": "FoodOrdering.API\\FoodOrdering.API.csproj",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.API\\FoodOrdering.API.csproj",
+              "RelativeToolTip": "FoodOrdering.API\\FoodOrdering.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-09T05:51:42.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\appsettings.Development.json",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\appsettings.Development.json",
+              "RelativeToolTip": "FoodOrdering.Web\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T05:51:34.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "FoodOrdering.Web\\appsettings.json",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Web\\appsettings.json",
+              "RelativeToolTip": "FoodOrdering.Web\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T05:49:40.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "FoodItem.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\FoodItem.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Domain\\Entities\\FoodItem.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\FoodItem.cs",
+              "RelativeToolTip": "FoodOrdering.Domain\\Entities\\FoodItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:48:27.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "FoodOrdering.Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\Corporate Training\\JECRC_KushagraSaxena_0177\\DOTNET\\Week-12\\09-05-2026\\Assessment\\OnlineFoodOrderingSystem\\FoodOrdering.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "FoodOrdering.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T05:47:30.3Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

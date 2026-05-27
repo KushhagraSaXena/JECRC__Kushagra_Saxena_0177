@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FoodOrdering.Web",
+    "\\FoodOrdering.Web\\Areas",
+    "\\FoodOrdering.Web\\Areas\\Admin",
+    "\\FoodOrdering.Web\\Areas\\Admin\\Views",
+    "\\FoodOrdering.Web\\Areas\\Admin\\Views\\Order",
+    "\\FoodOrdering.Web\\Views",
+    "\\FoodOrdering.Web\\Views\\Order",
+    "\\FoodOrdering.Web\\wwwroot",
+    "\\FoodOrdering.Web\\wwwroot\\images",
+    "\\FoodOrdering.Web\\wwwroot\\images\\food"
+  ],
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,97 @@
+@model FoodOrdering.Domain.Entities.FoodItem
+
+<div class="container py-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <h2 class="fw-bold">
+            Add Food Item
+        </h2>
+
+        <a asp-area="Admin"
+           asp-controller="FoodItems"
+           asp-action="Index"
+           class="btn btn-outline-dark">
+            Back
+        </a>
+
+    </div>
+
+    <div class="card shadow-sm border-0">
+
+        <div class="card-body p-4">
+
+            <form method="post"
+                  enctype="multipart/form-data">
+
+                <div class="mb-3">
+
+                    <label class="form-label fw-semibold">
+                        Food Name
+                    </label>
+
+                    <input asp-for="Name"
+                           class="form-control" />
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label fw-semibold">
+                        Description
+                    </label>
+
+                    <textarea asp-for="Description"
+                              rows="4"
+                              class="form-control"></textarea>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label fw-semibold">
+                        Price
+                    </label>
+
+                    <input asp-for="Price"
+                           class="form-control" />
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label class="form-label fw-semibold">
+                        Category
+                    </label>
+
+                    <select asp-for="CategoryId"
+                            asp-items="ViewBag.Categories"
+                            class="form-select">
+                    </select>
+
+                </div>
+
+                <div class="mb-4">
+
+                    <label class="form-label fw-semibold">
+                        Upload Food Image
+                    </label>
+
+                    <input type="file"
+                           name="imageFile"
+                           class="form-control" />
+
+                </div>
+
+                <button type="submit"
+                        class="btn btn-success px-4">
+                    Save Food Item
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>

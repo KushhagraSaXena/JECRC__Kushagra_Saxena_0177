@@ -1,0 +1,152 @@
+@model IEnumerable<FoodOrdering.Domain.Entities.Order>
+
+<div class="container py-4">
+
+    <div class="d-flex justify-content-between align-items-center mb-4">
+
+        <div>
+
+            <h2 class="fw-bold mb-1">
+                Order Management
+            </h2>
+
+            <p class="text-muted">
+                Manage customer orders
+            </p>
+
+        </div>
+
+    </div>
+
+    @foreach (var order in Model)
+    {
+        <div class="card shadow-sm border-0 mb-4">
+
+            <div class="card-header d-flex justify-content-between align-items-center">
+
+                <div>
+
+                    <strong>
+                        Order #@order.Id
+                    </strong>
+
+                    <br />
+
+                    <small class="text-muted">
+                        @order.OrderDate
+                    </small>
+
+                </div>
+
+                <div>
+
+                    @if (order.Status == "Pending")
+                    {
+                        <span class="badge bg-warning text-dark fs-6">
+                            Pending
+                        </span>
+                    }
+                    else if (order.Status == "Preparing")
+                    {
+                        <span class="badge bg-primary fs-6">
+                            Preparing
+                        </span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-success fs-6">
+                            Delivered
+                        </span>
+                    }
+
+                </div>
+
+            </div>
+
+            <div class="card-body">
+
+                <table class="table align-middle">
+
+                    <thead class="table-light">
+
+                        <tr>
+
+                            <th>Image</th>
+                            <th>Food</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        @foreach (var item in order.OrderItems)
+                        {
+                            <tr>
+
+                                <td>
+
+                                    <img src="@item.FoodItem?.ImageUrl"
+                                         width="70"
+                                         height="70"
+                                         style="object-fit:cover;
+                                                border-radius:10px;" />
+
+                                </td>
+
+                                <td>
+                                    @item.FoodItem?.Name
+                                </td>
+
+                                <td>
+                                    @item.Quantity
+                                </td>
+
+                                <td>
+                                    ₹ @item.Price
+                                </td>
+
+                            </tr>
+                        }
+
+                    </tbody>
+
+                </table>
+
+                <div class="d-flex justify-content-between align-items-center">
+
+                    <h5 class="fw-bold text-success">
+
+                        Total:
+                        ₹ @order.TotalAmount
+
+                    </h5>
+
+                    <div>
+
+                        <a asp-action="UpdateStatus"
+                           asp-route-id="@order.Id"
+                           asp-route-status="Preparing"
+                           class="btn btn-primary btn-sm">
+                            Preparing
+                        </a>
+
+                        <a asp-action="UpdateStatus"
+                           asp-route-id="@order.Id"
+                           asp-route-status="Delivered"
+                           class="btn btn-success btn-sm">
+                            Delivered
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    }
+
+</div>
